@@ -1,5 +1,9 @@
 <template lang="">
-  <div></div>
+  <div>
+    <theModel />
+  </div>
 </template>
-<script setup></script>
+<script setup>
+  import theModel from "./pages/theModel.vue";
+</script>
 <style lang=""></style>
