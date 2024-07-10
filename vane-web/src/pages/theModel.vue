@@ -8,7 +8,7 @@
         <span class="underline">laboris nisi.</span>
       </h2>
     </div>
-    <button class="bg-black rounded-md mt-80 py-2 text-lg text-white">
+    <button class="bg-orange-600 rounded-md mt-96 py-2 text-lg text-white">
       Lorem ipsum dolor sit
     </button>
 
@@ -33,7 +33,7 @@
     <div class="flex flex-col gap-3 justify-center relative">
       <img
         :src="roomPhoto"
-        class="absolute w-full opacity-20 bottom-0"
+        class="absolute w-full opacity-20 bottom-0 -z-1"
         alt=""
       />
       <p>
@@ -48,7 +48,7 @@
         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
 
-      <button class="bg-white rounded-md py-3 px-5 w-40 mx-auto">
+      <button class="bg-white rounded-md py-3 px-5 w-40 mx-auto z-10">
         LOREM IPSUM DOLOR
       </button>
     </div>
@@ -101,18 +101,38 @@
     </div>
   </div>
 
-  <div class="flex flex-col justify-start mx-4">
-    <div class="flex flex-col gap-4 mb-5">
-      <h1 class="text-3xl">Contacto</h1>
-      <h2 class="text-2xl">¿Querés en comenzar terapia?</h2>
-      <h2 class="text-xl">Llena el siguiente formulario</h2>
-    </div>
+  <div class="bg-stone-50 py-10">
+    <div class="flex flex-col justify-start mx-4">
+      <div class="flex flex-col gap-4 mb-5">
+        <h1 class="text-3xl">Contacto</h1>
+        <h2 class="text-2xl">¿Querés en comenzar terapia?</h2>
+        <h2 class="text-xl">Llena el siguiente formulario</h2>
+      </div>
 
-    <div>
-      <form class="flex flex-col justify-between gap-5">
-        <div class="flex flex-row justify-between">
+      <div class="w-4/5 mx-auto">
+        <form class="flex flex-col justify-between gap-5">
+          <div class="flex flex-row justify-around">
+            <div class="flex flex-col w-full">
+              <label for="name">Nombre</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="bg-gray-50 border-b-4 border-pink-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+              />
+            </div>
+            <!-- <div class="flex flex-col w-4/5">
+              <label for="">Apellido</label>
+              <input
+                type="text"
+                name=""
+                id=""
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+              />
+            </div> -->
+          </div>
           <div class="flex flex-col">
-            <label for="name">Nombre</label>
+            <label for="name">E-mail</label>
             <input
               type="text"
               name="name"
@@ -121,49 +141,31 @@
             />
           </div>
           <div class="flex flex-col">
-            <label for="">Apellido</label>
+            <label for="name">Teléfono</label>
             <input
               type="text"
-              name=""
-              id=""
+              name="name"
+              id="name"
               class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
             />
           </div>
-        </div>
-        <div class="flex flex-col">
-          <label for="name">E-mail</label>
-          <input
-            type="text"
-            name="name"
-            id="name"
-            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-          />
-        </div>
-        <div class="flex flex-col">
-          <label for="name">Teléfono</label>
-          <input
-            type="text"
-            name="name"
-            id="name"
-            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-          />
-        </div>
-        <div class="flex flex-col">
-          <label for="name">Mensaje</label>
-          <textarea
-            name=""
-            id=""
-            rows="4"
-            class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500"
-          ></textarea>
+          <div class="flex flex-col">
+            <label for="name">Mensaje</label>
+            <textarea
+              name=""
+              id=""
+              rows="4"
+              class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500"
+            ></textarea>
 
-          <button class="bg-orange-600 text-white rounded-lg py-2 px-3">
-            Submit
-          </button>
-        </div>
-      </form>
+            <button class="bg-orange-500 text-white rounded-lg py-2 px-3">
+              Submit
+            </button>
+          </div>
+        </form>
 
-      <h1 class="my-5 text-lg">Lorem impsum - Leonardo Terlizzi</h1>
+        <h1 class="my-5 text-lg">Lorem impsum - Leonardo Terlizzi</h1>
+      </div>
     </div>
   </div>
 </template>
