@@ -1,0 +1,81 @@
+const express = require("express");
+const helmet = require("helmet");
+const nodemailer = require("nodemailer");
+const app = express();
+
+app.use(express.json());
+app.use(helmet());
+
+const transporter = nodemailer.createTransport({
+  service: "hotmail",
+  auth: {
+    user: process.env.EMAIL,
+    pass: process.env.PASSWORD,
+  },
+  tls: {
+    ciphers: "SSLv3",
+  },
+});
+
+app.post("/api/send-email", async (req, res) => {
+  const data = req.body;
+
+  const mailOptions = {
+    from: `API Service <${process.env.EMAIL}>`,
+    to: process.env.EMAIL,
+    subject: data.subject,
+    text: generateText(data),
+    html: generateTemplate(data),
+  };
+
+  try {
+    const info = await transporter.sendMail(mailOptions);
+    return res.status(200).json({ message: "Email enviado ", info });
+  } catch (error) {
+    console.error(error);
+    return res
+      .status(500)
+      .json({ message: "Se ha producido un error al enviar el mail", error });
+  }
+});
+
+function generateText(data) {
+  const now = new Date();
+  return `\n
+    Nombre: ${data.name}\n
+    Teléfono: ${data.phone ? data.phone : "<no proporcionó teléfono>"}\n
+    Email: ${data.email ? data.email : "<no proporcionó email>"}\n
+    Asunto: ${data.subject ? data.subject : "<no propocionó asunto>"}
+    \n
+    \n
+    Fecha: ${now.toUTCString()}
+    \n
+    Mensaje: \n
+    \n
+    ${data.text}
+    \n
+    FIN DE MENSAJE
+
+    `;
+}
+
+function generateTemplate(data) {
+  const now = new Date();
+  return `
+    <h4>Nombre: ${data.name}</h4>
+    <h4>Teléfono: ${data.phone ? data.phone : "no proporcionó teléfono"}</h4>
+    <h4>Email: ${data.email ? data.email : "no proporcionó email"} </h4>
+    <h4>Asunto: ${data.subject ? data.subject : "no proporcionó asunto"} </h4>
+    </br>
+    </br>
+    <h4>Fecha: ${now.toUTCString()} </h4>
+    </br>
+    <h4>Mensaje: </h4>
+    </br>
+    <p>${data.text}</p>
+    </br>
+    <h5></h5>
+    `;
+}
+
+module.exports = app;
