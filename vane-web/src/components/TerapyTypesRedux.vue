@@ -1,6 +1,6 @@
 <template lang="">
   <div
-    class="flex 2xl:flex-row 2xl:justify-evenly 2xl:gap-0 w-full mx-auto my-80 text-xl text-secondary-content h-auto"
+    class="flex 2xl:flex-row 2xl:justify-evenly 2xl:gap-0 w-full mx-auto my-40 2xl:mt-2 text-xl text-secondary-content"
   >
     <div
       class="flex flex-col 2xl:w-80 2xl:py-12 justify-center mx-auto text-center gap-3 rounded-xl px-5 2xl:max-h-56"

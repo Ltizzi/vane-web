@@ -15,9 +15,23 @@ import {
   faUserTie,
 } from "@fortawesome/free-solid-svg-icons";
 
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import {
+  faWhatsapp,
+  faGithub,
+  faInstagram,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
 
-library.add(faHouseLaptop, faPeopleGroup, faWheelchair, faWhatsapp, faUserTie);
+library.add(
+  faHouseLaptop,
+  faPeopleGroup,
+  faWheelchair,
+  faWhatsapp,
+  faUserTie,
+  faGithub,
+  faInstagram,
+  faLinkedin
+);
 
 const app = createApp(App);
 
