@@ -11,11 +11,15 @@
     </div>
     <div class="h-full bg-accent bg-opacity-85">
       <div class="text-center align-middle my-44">
-        <!-- <button
+        <button
           class="btn btn-outline text-white align-middle font-playfair capitalize text-2xl hover:bg-content"
         >
           Terapias
-        </button> -->
+        </button>
+      </div>
+    </div>
+    <div class="col-span-2 h-full bg-primary bg-opacity-85">
+      <div class="text-center align-middle my-44">
         <button
           class="btn btn-outline text-white align-middle font-playfair capitalize text-2xl hover:bg-secondary-content"
         >
@@ -23,14 +27,13 @@
         </button>
       </div>
     </div>
-    <div class="col-span-2 h-full bg-primary bg-opacity-85">
-      <div class="text-center align-middle my-44">
-        <h1 class="text-white text-4xl font-playfair italic w-1/3 mx-auto">
-          "Porque conectarnos (en el tiempo) más allá de la distancia es
-          posible""
-        </h1>
-      </div>
-    </div>
+  </div>
+  <div class="h-auto text-center">
+    <h1
+      class="text-primary font-semibold text-6xl font-playfair w-2/3 italic mx-auto my-96"
+    >
+      "Porque conectarnos (en el tiempo) más allá de la distancia es posible""
+    </h1>
   </div>
 </template>
 <script setup></script>

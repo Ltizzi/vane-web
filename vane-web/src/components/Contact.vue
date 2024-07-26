@@ -2,7 +2,7 @@
   <div class="bg-secondary 2xl:flex-row flex w-full 2xl:h-auto">
     <div class="w-1/2 bg-primary">
       <div
-        class="w-96 bg-opacity-60 py-7 px-5 bg-white mx-auto my-20 rounded-xl flex flex-col gap-4 justify-center shadow-2xl shadow-secondary-content"
+        class="w-96 bg-opacity-95 py-7 px-5 bg-primary-content mx-auto my-20 rounded-xl flex flex-col gap-4 justify-center shadow-2xl shadow-secondary-content"
       >
         <input
           type="text"
