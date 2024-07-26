@@ -1,9 +1,9 @@
 <template lang="">
   <div>
-    <theModel />
+    <theHome />
   </div>
 </template>
 <script setup>
-  import theModel from "./pages/theModel.vue";
+  import TheHome from "./pages/TheHome.vue";
 </script>
 <style lang=""></style>

@@ -12,7 +12,7 @@
       Lorem ipsum dolor sit
     </button>
 
-    <p class="my-5 text-center">
+    <p class="my-5 text-center font-montserrat text-black">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
       veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -55,7 +55,7 @@
   </div>
 
   <div
-    class="flex flex-col justify-center text-center font-sans gap-12 mx-2 text-lg my-7"
+    class="flex flex-col justify-center text-center font-sans gap-12 mx-2 text-lg my-7 font-playfair"
   >
     <div class="flex flex-col justify-center gap-7">
       <h1 class="underline text-xl">Lorem ipsum dolor</h1>

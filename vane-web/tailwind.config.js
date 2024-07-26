@@ -2,7 +2,16 @@
 export default {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
+    fontFamily: {
+      montserrat: ["Montserrat"],
+      playfair: ["Playfair"],
+    },
+
     extend: {},
   },
-  plugins: [],
+
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: ["autumn"],
+  },
 };
