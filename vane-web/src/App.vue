@@ -1,9 +1,8 @@
 <template lang="">
   <div>
-    <theHome />
+    <router-view></router-view>
   </div>
 </template>
 <script setup>
   import TheHome from "./pages/TheHome.vue";
 </script>
-<style lang=""></style>

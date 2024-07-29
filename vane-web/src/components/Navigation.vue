@@ -22,6 +22,7 @@
       <div class="text-center align-middle my-44">
         <button
           class="btn btn-outline text-white align-middle font-playfair capitalize text-2xl hover:bg-secondary-content"
+          @click="goTo('faq')"
         >
           Preguntas frecuentes
         </button>
@@ -36,5 +37,17 @@
     </h1>
   </div>
 </template>
-<script setup></script>
-<style lang=""></style>
+<script setup>
+  import { useRouter } from "vue-router";
+
+  const router = useRouter();
+
+  function goTo(route) {
+    switch (route) {
+      case "faq":
+        console.log("Asd");
+        router.push("/faq");
+        break;
+    }
+  }
+</script>

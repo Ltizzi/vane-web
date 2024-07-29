@@ -4,7 +4,7 @@
     <TerapyTypesRedux></TerapyTypesRedux>
     <Navigation></Navigation>
     <WhatsappBtn></WhatsappBtn>
-    <Contact></Contact>
+    <Contact> </Contact>
     <Footer></Footer>
   </div>
 </template>

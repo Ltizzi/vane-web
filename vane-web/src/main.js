@@ -21,6 +21,7 @@ import {
   faInstagram,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
+import { router } from "../router";
 
 library.add(
   faHouseLaptop,
@@ -36,5 +37,5 @@ library.add(
 const app = createApp(App);
 
 app.component("font-awesome-icon", FontAwesomeIcon);
-
+app.use(router);
 app.mount("#app");
