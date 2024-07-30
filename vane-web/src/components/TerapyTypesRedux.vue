@@ -1,6 +1,6 @@
 <template lang="">
   <div
-    class="flex 2xl:flex-row 2xl:justify-evenly 2xl:gap-0 w-full mx-auto my-40 2xl:mt-2 text-xl text-secondary-content"
+    class="flex flex-col gap-10 lg:flex-row lg:justify-evenly lg:gap-0 w-full mx-auto my-40 lg:mt-2 text-base lg:text-xl text-secondary-content"
   >
     <div
       class="flex flex-col 2xl:w-80 2xl:py-12 justify-center mx-auto text-center gap-3 rounded-xl px-5 2xl:max-h-56"
@@ -9,7 +9,7 @@
         :icon="['fas', 'house-laptop']"
         class="size-16 mx-auto text-secondary opacity-60"
       />
-      <h1 class="font-semibold text-secondary-content">
+      <h1 class="font-semibold text-secondary-content lg:w-full w-64">
         Psicoterapia Virtual a través de videollamada
       </h1>
       <!-- <p class="text-center">
@@ -23,7 +23,7 @@
         :icon="['fas', 'people-group']"
         class="size-10 mx-auto text-secondary opacity-60"
       />
-      <h1 class="font-semibold text-secondary-content">
+      <h1 class="font-semibold text-secondary-content lg:w-full w-64">
         Psicoterapia orientada a adolescentes y adultos
       </h1>
       <!-- <p class="text-center">
@@ -39,7 +39,7 @@
         class="size-10 mx-auto text-secondary opacity-60"
       />
 
-      <h1 class="font-semibold text-secondary-content">
+      <h1 class="font-semibold text-secondary-content lg:w-full w-64">
         Orientación psicológica a familiares de personas discapacitadas
       </h1>
       <!-- <p class="text-center">
@@ -55,7 +55,7 @@
         class="size-10 mx-auto text-secondary opacity-60"
       />
 
-      <h1 class="font-semibold text-secondary-content">
+      <h1 class="font-semibold text-secondary-content lg:w-full w-64">
         Supervisión a profesionales que trabajan con personas con discapacidad
       </h1>
       <!-- <p class="text-center">

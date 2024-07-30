@@ -1,13 +1,21 @@
 <template lang="">
   <div class="relative">
-    <img :src="bg" class="absolute top-0 opacity-25" alt="" />
+    <img
+      :src="bg"
+      class="absolute top-0 opacity-25 h-full lg:h-auto object-cover lg:object-none"
+      alt=""
+    />
     <div
       class="flex flex-col gap-10 justify-start font-playfair 2xl:mx-20 pt-10 relative"
     >
       <h1 class="text-6xl text-center">Tratamientos</h1>
-      <img :src="border" class="absolute top-32 size-96 -left-0" alt="" />
-      <div class="mx-24 mt-28">
-        <ul class="flex flex-col gap-7">
+      <img
+        :src="border"
+        class="absolute top-32 lg:size-96 size-64 left-2 lg:left-0"
+        alt=""
+      />
+      <div class="lg:mx-24 mx-10 mt-28">
+        <ul class="flex flex-col lg:gap-7 gap-12">
           <li class="flex flex-col gap-5">
             <h2 class="text-4xl font-semibold">Terapia individual Adultos</h2>
             <p class="text-xl">
@@ -45,7 +53,7 @@
                 enfrentar los desafíos asociados. Es así que acompaño a las
                 familias a:
               </p>
-              <ul class="text-xl indent-3 gap-5">
+              <ul class="text-xl lg:indent-3 lg:gap-5 gap-10 flex flex-col">
                 <li>
                   Procesar sus emociones relacionadas con la discapacidad de su
                   ser querido, como la tristeza, la frustración o la
@@ -90,7 +98,7 @@
               que realizan en su labor profesional. implica varios aspectos
               clave:
             </p>
-            <ul class="flex flex-col gap-3 text-xl mx-10">
+            <ul class="flex flex-col gap-3 text-xl lg:mx-10 mx-0 pb-20 lg:pb-0">
               <li>Técnicas de comunicación efectiva y adaptativa.</li>
               <li>
                 Entrenamiento en métodos de intervención y apoyo personalizado.
@@ -117,12 +125,12 @@
       </div>
       <img
         :src="border"
-        class="absolute -bottom-32 size-96 right-0 rotate-180"
+        class="absolute lg:-bottom-32 lg:size-96 bottom-0 size-64 right-0 rotate-180"
         alt=""
       />
     </div>
   </div>
-  <div class="mt-48">
+  <div class="lg:mt-48">
     <Contact />
     <Footer />
   </div>

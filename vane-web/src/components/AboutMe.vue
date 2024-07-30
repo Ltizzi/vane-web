@@ -1,10 +1,10 @@
 <template lang="">
   <div
-    class="flex flex-col gap-7 font-playfair h-screen pt-24 text-2xl relative"
+    class="flex flex-col gap-7 font-playfair lg:h-screen pt-24 text-2xl relative"
   >
     <img
       :src="bg"
-      class="absolute opacity-25 top-0 h-screen w-screen object-cover"
+      class="absolute opacity-25 top-0 lg:h-screen h-full lg:w-screen object-cover"
       alt=""
     />
     <img
@@ -13,9 +13,14 @@
       class="w-3/5 h-16 object-cover opacity-35 mx-auto"
     />
     <div
-      class="mx-24 px-5 flex flex-col gap-10 py-10 indent-16 leading-10 text-justify"
+      class="lg:mx-24 mx-5 px-5 flex flex-col gap-10 py-10 indent-16 leading-10 text-justify"
     >
-      <div class="flex flex-row gap-5 justify-center my-auto">
+      <div class="flex flex-col lg:flex-row gap-5 justify-center my-auto">
+        <div class="avatar lg:hidden">
+          <div class="lg:w-40 lg:h-auto size-28 rounded-full mx-auto">
+            <img :src="avatar" alt="" />
+          </div>
+        </div>
         <p class="mt-10">
           Soy Vanesa Carlotto Miranda, Licenciada en Psicología de la Facultad
           de Ciencias Empresariales y Sociales (UCES), MN.56669 MP.74831.
@@ -24,8 +29,8 @@
           (Ispee). Especialista en Psicología Clínica con Niños y Adolescentes
           de UBA.
         </p>
-        <div class="avatar">
-          <div class="w-40 rounded-xl">
+        <div class="avatar hidden">
+          <div class="lg:w-40 lg:h-auto w-14 h-14 rounded-xl">
             <img :src="avatar" alt="" />
           </div>
         </div>

@@ -1,6 +1,15 @@
 <template lang="">
-  <div class="bg-secondary 2xl:flex-row flex w-full 2xl:h-auto">
-    <div class="w-1/2 bg-primary">
+  <div class="bg-secondary flex-col lg:flex-row flex w-full lg:h-auto">
+    <div
+      class="text-white text-6xl py-16 font-playfair font-semibold text-center flex flex-col gap-5 justify-center lg:hidden"
+    >
+      <h1>Contacto</h1>
+      <div class="flex flex-col text-6xl">
+        <h3 class="text-2xl italic">Reserva tu sesión,</h3>
+        <h3 class="text-2xl italic">haz una consulta</h3>
+      </div>
+    </div>
+    <div class="lg:w-1/2 bg-primary">
       <div
         class="w-96 bg-opacity-95 py-7 px-5 bg-primary-content mx-auto my-20 rounded-xl flex flex-col gap-4 justify-center shadow-2xl shadow-secondary-content"
       >
@@ -33,7 +42,7 @@
     </div>
 
     <div
-      class="text-white 2xl:text-6xl font-playfair font-semibold 2xl:w-1/2 text-center flex flex-col gap-5 justify-center"
+      class="text-white lg:text-6xl font-playfair font-semibold text-center lg:flex flex-col gap-5 justify-center hidden md:w-1/2"
     >
       <h1>Contacto</h1>
       <div class="flex flex-col text-6xl">

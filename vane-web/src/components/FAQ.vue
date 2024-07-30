@@ -3,9 +3,9 @@
     <img
       :src="bgFAQ"
       alt=""
-      class="h-auto w-screen object-scale-down absolute top-0 opacity-10"
+      class="lg:h-auto hidden lg:flex lg:w-screen lg:object-scale-down absolute top-0 opacity-10"
     />
-    <div class="flex flex-col justify-start gap-5 mx-20 bg-base">
+    <div class="flex flex-col justify-start gap-5 lg:mx-20 mx-5 bg-base">
       <h1 class="text-center font-semibold text-5xl py-7">
         Preguntas Frecuentes
       </h1>
@@ -106,7 +106,7 @@
         </p>
       </div>
     </div>
-    <div class="mt-20">
+    <div class="lg:mt-20 mt-5">
       <Contact></Contact>
       <Footer></Footer>
     </div>
