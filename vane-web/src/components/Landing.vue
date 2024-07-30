@@ -12,7 +12,7 @@
         alt=""
       />
       <button
-        class="hidden btn btn-active btn-accent text-lg text-white 2xl:inline absolute left-2/3 bottom-20 w-8/12 shadow-lg shadow-neutral duration-150 transition-all ease-in-out hover:scale-105"
+        class="hidden btn btn-active btn-accent text-lg text-white 2xl:inline absolute left-2/3 bottom-20 w-8/12 shadow-lg shadow-neutral duration-150 transition-all ease-in-out hover:bg-black"
       >
         Contacto
       </button>

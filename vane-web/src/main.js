@@ -21,7 +21,7 @@ import {
   faInstagram,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-import { router } from "../router";
+import { router } from "./router";
 
 library.add(
   faHouseLaptop,
