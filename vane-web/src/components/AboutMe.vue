@@ -29,7 +29,7 @@
           (Ispee). Especialista en Psicología Clínica con Niños y Adolescentes
           de UBA.
         </p>
-        <div class="avatar hidden">
+        <div class="avatar hidden lg:flex">
           <div class="lg:w-40 lg:h-auto w-14 h-14 rounded-xl">
             <img :src="avatar" alt="" />
           </div>

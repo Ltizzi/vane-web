@@ -1,12 +1,12 @@
 <template lang="">
-  <div class="relative">
+  <div class="relative lg:pb-40">
     <img
       :src="bg"
-      class="absolute top-0 opacity-25 h-full lg:h-auto object-cover lg:object-none"
+      class="absolute top-0 opacity-25 h-full lg:h-full lg:w-full object-cover lg:object-cover"
       alt=""
     />
     <div
-      class="flex flex-col gap-10 justify-start font-playfair 2xl:mx-20 pt-10 relative"
+      class="flex flex-col gap-10 justify-start font-playfair lg:mx-20 pt-10 relative"
     >
       <h1 class="text-6xl text-center">Tratamientos</h1>
       <img
@@ -125,12 +125,12 @@
       </div>
       <img
         :src="border"
-        class="absolute lg:-bottom-32 lg:size-96 bottom-0 size-64 right-0 rotate-180"
+        class="absolute 2xl:-bottom-32 lg:-bottom-20 2xl:size-96 bottom-0 size-64 right-0 rotate-180"
         alt=""
       />
     </div>
   </div>
-  <div class="lg:mt-48">
+  <div class="lg:mt-0">
     <Contact />
     <Footer />
   </div>
