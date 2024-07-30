@@ -2,11 +2,23 @@
   <footer class="footer bg-base-300 text-base-content p-10 justify-around">
     <nav>
       <h6 class="footer-title">Links</h6>
-      <a class="link link-hover">Sobre mí</a>
+      <router-link to="/">
+        <a class="link link-hover">Inicio</a>
+      </router-link>
+      <router-link to="/about">
+        <a class="link link-hover">Sobre mí</a></router-link
+      >
 
-      <a class="link link-hover">Terapias</a>
-      <a class="link link-hover">Preguntas Frecuentes</a>
-      <a class="link link-hover">Contacto</a>
+      <router-link to="/info">
+        <a class="link link-hover">Terapias</a></router-link
+      >
+
+      <router-link to="/faq">
+        <a class="link link-hover">Preguntas Frecuentes</a>
+      </router-link>
+      <router-link to="/contact">
+        <a class="link link-hover">Contacto</a>
+      </router-link>
     </nav>
     <nav>
       <h6 class="footer-title">Social</h6>

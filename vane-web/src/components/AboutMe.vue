@@ -56,14 +56,16 @@
   </div>
   <Contact />
   <Footer />
+  <WhatsappBtn />
 </template>
 <script setup>
   import { ref } from "vue";
   import borderImg from "../assets/border-t-alt.svg";
   import Contact from "./Contact.vue";
-  import avatarImg from "../assets/avatar_ph.png";
   import Footer from "./Footer.vue";
   import bgImg from "../assets/mountain.png";
+  import avatarImg from "../assets/avatar_ph.png";
+  import WhatsappBtn from "./WhatsappBtn.vue";
 
   const border = ref(borderImg);
   const bg = ref(bgImg);

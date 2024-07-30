@@ -14,11 +14,13 @@
     </div>
     <div class="h-full bg-accent bg-opacity-85">
       <div class="text-center align-middle my-44">
-        <button
-          class="btn btn-outline text-white align-middle font-playfair capitalize text-2xl hover:bg-content"
-        >
-          Terapias
-        </button>
+        <router-link to="/info">
+          <button
+            class="btn btn-outline text-white align-middle font-playfair capitalize text-2xl hover:bg-content"
+          >
+            Terapias
+          </button>
+        </router-link>
       </div>
     </div>
     <div class="col-span-2 h-full bg-primary bg-opacity-85">
