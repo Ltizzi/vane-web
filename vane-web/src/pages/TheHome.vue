@@ -1,5 +1,6 @@
 <template lang="">
   <div>
+    <Navbar></Navbar>
     <Landing></Landing>
     <TerapyTypesRedux></TerapyTypesRedux>
     <Navigation></Navigation>
@@ -15,4 +16,5 @@
   import WhatsappBtn from "../components/WhatsappBtn.vue";
   import Contact from "../components/Contact.vue";
   import Footer from "../components/Footer.vue";
+  import Navbar from "../components/Navbar.vue";
 </script>
