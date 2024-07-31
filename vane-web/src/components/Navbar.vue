@@ -1,16 +1,16 @@
 <template lang="">
-  <div class="navbar bg-base-100">
+  <div class="navbar bg-base-100 z-50">
     <div class="flex-1">
       <router-link to="/">
         <a class="btn btn-ghost text-xl">Vanesa Carloto Miranda</a>
       </router-link>
     </div>
     <div class="flex-none">
-      <ul class="menu menu-horizontal px-1">
+      <ul class="menu menu-horizontal px-1 z-50">
         <li>
           <details>
             <summary>Más información</summary>
-            <ul class="bg-base-100 rounded-t-none p-2">
+            <ul class="bg-base-100 rounded-t-none p-2 z-50">
               <li>
                 <router-link to="/about"><a>Sobre mí</a></router-link>
               </li>
