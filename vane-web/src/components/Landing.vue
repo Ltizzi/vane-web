@@ -1,6 +1,6 @@
 <template lang="">
   <div
-    class="flex flex-col justify-center w-screen h-screen"
+    class="mx-auto w-screen h-screen mt-10"
     :style="{
       backgroundImage: ` url(${roomPhoto})`,
       backgroundSize: 'cover ',
@@ -9,10 +9,10 @@
     }"
   >
     <div
-      class="bg-black bg-opacity-50 w-full h-full flex flex-col justify-center gap-5"
+      class="bg-black bg-opacity-50 w-full text-center h-full flex flex-col justify-center gap-5"
     >
       <h1
-        class="text-white font-bold font-playfair text-6xl w-1/3 mx-auto text-center"
+        class="text-white font-bold font-playfair text-2xl mx-auto w-full lg:text-6xl lg:w-1/3"
       >
         Licenciada Vanesa Carlotto Miranda
       </h1>
