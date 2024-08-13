@@ -1,5 +1,5 @@
 <template lang="">
-  <div class="grid grid-cols-2 gap-0 2xl:w-full lg:h-auto 2xl:h-auto mt-10">
+  <div class="grid grid-cols-2 gap-0 2xl:w-full lg:h-auto 2xl:h-auto mt-0">
     <div class="h-full bg-stone-200 bg-opacity-70">
       <div class="text-center align-middle my-44">
         <!--    @click="goTo('about')" -->

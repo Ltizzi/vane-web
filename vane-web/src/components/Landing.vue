@@ -6,6 +6,7 @@
       backgroundSize: 'cover ',
       backgroundRepeate: 'no-repeat',
       height: 'screen',
+      width: 'screen',
     }"
   >
     <div
@@ -17,7 +18,7 @@
         Lic. Vanesa Carlotto Miranda
       </h1>
       <h1
-        class="text-white font-semibold italic font-playfair text-3xl ml-32 -mt-5 text-center w-full lg:text-5xl"
+        class="text-white font-semibold italic font-playfair text-3xl pl-32 -mt-5 text-center w-full lg:text-5xl"
       >
         Psicóloga
       </h1>

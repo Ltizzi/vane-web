@@ -1,5 +1,5 @@
 <template lang="">
-  <div class="w-screen">
+  <div class="w-auto overflow-x-hidden">
     <Navbar></Navbar>
     <Landing></Landing>
     <!-- <TerapyTypesRedux></TerapyTypesRedux> -->
