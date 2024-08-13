@@ -29,7 +29,7 @@
       </div>
     </nav>
   </footer>
-  <footer class="footer footer-center bg-primary text-primary-content p-5">
+  <footer class="footer footer-center bg-stone-500 text-primary-content p-5">
     <aside>
       <p class="font-bold">
         Leonardo Terlizzi

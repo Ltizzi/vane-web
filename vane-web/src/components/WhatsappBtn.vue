@@ -1,10 +1,10 @@
 <template lang="">
   <div
-    class="animate-bounce transition-all duration-150 bottom-20 fixed right-28"
+    class="animate-bounce transition-all duration-150 bottom-20 fixed right-16"
   >
     <font-awesome-icon
       :icon="['fab', 'whatsapp']"
-      class="size-5 2xl:size-12 lg:size-7 text-white fixed rounded-full p-2 shadow-lg shadow-gray-500 bg-green-500 animate-bounce hover:cursor-pointer"
+      class="size-6 2xl:size-12 lg:size-7 text-white fixed rounded-full p-1.5 shadow-lg shadow-gray-500 bg-green-500 animate-bounce hover:cursor-pointer"
     />
   </div>
 </template>

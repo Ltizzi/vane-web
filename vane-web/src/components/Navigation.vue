@@ -9,7 +9,7 @@
     </h1>
   </div>
   <div class="grid grid-cols-2 gap-0 2xl:w-full lg:h-auto 2xl:h-auto mt-10">
-    <div class="h-full bg-stone-400 bg-opacity-70">
+    <div class="h-full bg-stone-200 bg-opacity-70">
       <div class="text-center align-middle my-44">
         <!--    @click="goTo('about')" -->
         <router-link to="/about">
@@ -21,7 +21,7 @@
         </router-link>
       </div>
     </div>
-    <div class="h-full bg-stone-500 bg-opacity-70">
+    <div class="h-full bg-stone-400 bg-opacity-70">
       <div class="text-center align-middle my-44">
         <router-link to="/info">
           <button

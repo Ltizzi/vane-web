@@ -12,9 +12,14 @@
       class="bg-black bg-opacity-50 w-full text-center h-full flex flex-col justify-center gap-5"
     >
       <h1
-        class="text-white font-bold font-playfair text-2xl mx-auto w-full lg:text-6xl lg:w-1/3"
+        class="text-white font-bold font-playfair text-4xl mx-auto w-full lg:text-6xl lg:w-2/3"
       >
-        Licenciada Vanesa Carlotto Miranda
+        Lic. Vanesa Carlotto Miranda
+      </h1>
+      <h1
+        class="text-white font-semibold italic font-playfair text-3xl ml-32 -mt-5 text-center w-full lg:text-5xl"
+      >
+        Psicóloga
       </h1>
       <button class="btn btn-accent text-white w-20 mx-auto">Contacto</button>
     </div>
