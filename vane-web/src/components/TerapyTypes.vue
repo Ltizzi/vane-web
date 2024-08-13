@@ -1,19 +1,21 @@
 <template lang="">
+  <Navbar />
+
   <div class="relative lg:pb-40">
     <img
       :src="bg"
-      class="absolute top-0 opacity-25 h-full lg:h-full lg:w-full object-cover lg:object-cover"
+      class="absolute top-0 opacity-15 h-full lg:h-full lg:w-full object-cover lg:object-cover"
       alt=""
     />
     <div
       class="flex flex-col gap-10 justify-start font-playfair lg:mx-20 pt-10 relative"
     >
       <h1 class="text-6xl text-center">Tratamientos</h1>
-      <img
+      <!-- <img
         :src="border"
         class="absolute top-32 lg:size-96 size-64 left-2 lg:left-0"
         alt=""
-      />
+      /> -->
       <div class="lg:mx-24 mx-10 mt-28">
         <ul class="flex flex-col lg:gap-7 gap-12">
           <li class="flex flex-col gap-5">
@@ -123,11 +125,11 @@
           </li>
         </ul>
       </div>
-      <img
+      <!-- <img
         :src="border"
         class="absolute 2xl:-bottom-32 lg:-bottom-20 2xl:size-96 bottom-0 size-64 right-0 rotate-180"
         alt=""
-      />
+      /> -->
     </div>
   </div>
   <div class="lg:mt-0">
@@ -143,6 +145,7 @@
   import Contact from "./Contact.vue";
   import Footer from "./Footer.vue";
   import WhatsappBtn from "./WhatsappBtn.vue";
+  import Navbar from "./Navbar.vue";
 
   const border = ref(borderImg);
   const bg = ref(bgImg);

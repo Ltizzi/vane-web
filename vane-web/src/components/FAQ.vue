@@ -1,4 +1,6 @@
 <template lang="">
+  <Navbar />
+
   <div class="relative font-playfair">
     <img
       :src="bgFAQ"
@@ -119,6 +121,7 @@
   import Contact from "./Contact.vue";
   import Footer from "./Footer.vue";
   import WhatsappBtn from "./WhatsappBtn.vue";
+  import Navbar from "./Navbar.vue";
 
   const bg_photo = ref(bgFAQ);
 </script>

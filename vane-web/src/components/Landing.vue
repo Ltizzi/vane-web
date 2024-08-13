@@ -21,7 +21,11 @@
       >
         Psicóloga
       </h1>
-      <button class="btn btn-accent text-white w-20 mx-auto">Contacto</button>
+      <button
+        class="btn btn-accent text-white w-20 mx-auto rounded-none border-4 border-accent border-transparent"
+      >
+        Contacto
+      </button>
     </div>
   </div>
   <!-- <div

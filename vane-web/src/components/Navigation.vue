@@ -1,20 +1,11 @@
 <template lang="">
-  <div class="h-auto text-center">
-    <h1
-      class="text-primary relative font-semibold text-6xl font-playfair w-2/3 italic mx-auto my-96 flex flex-row align-middle"
-    >
-      <!-- <img :src="quoteL" class="w-10 absolute" alt="" /> -->
-      "Porque conectarnos más allá de la distancia es posible"
-      <!-- <img :src="quoteR" class="w-10 absolute right-0" alt="" /> -->
-    </h1>
-  </div>
   <div class="grid grid-cols-2 gap-0 2xl:w-full lg:h-auto 2xl:h-auto mt-10">
     <div class="h-full bg-stone-200 bg-opacity-70">
       <div class="text-center align-middle my-44">
         <!--    @click="goTo('about')" -->
         <router-link to="/about">
           <button
-            class="btn btn-accent text-white align-middle font-playfair capitalize text-2xl hover:bg-secondary-content rounded-none"
+            class="btn btn-accent text-white align-middle font-playfair capitalize text-2xl hover:bg-secondary-content rounded-none border-4 border-accent border-transparent hover:border-secondary-content"
           >
             Sobre mí
           </button>
@@ -25,7 +16,7 @@
       <div class="text-center align-middle my-44">
         <router-link to="/info">
           <button
-            class="btn btn-accent text-white align-middle font-playfair capitalize text-2xl hover:bg-secondary-content rounded-none"
+            class="btn btn-accent text-white align-middle font-playfair capitalize text-2xl hover:bg-secondary-content rounded-none border-4 border-accent border-transparent"
           >
             Terapias
           </button>
@@ -35,13 +26,22 @@
     <div class="col-span-2 h-full bg-stone-600 bg-opacity-70">
       <div class="text-center align-middle my-44">
         <button
-          class="btn btn-accent text-white align-middle font-playfair capitalize text-2xl hover:bg-secondary-content rounded-none"
+          class="btn btn-accent text-white align-middle font-playfair capitalize text-2xl hover:bg-secondary-content rounded-none border-4 border-accent border-transparent"
           @click="goTo('faq')"
         >
           Preguntas frecuentes
         </button>
       </div>
     </div>
+  </div>
+  <div class="h-auto text-center">
+    <h1
+      class="text-stone-800 relative font-semibold text-6xl font-playfair w-2/3 italic mx-auto my-96 flex flex-row align-middle"
+    >
+      <!-- <img :src="quoteL" class="w-10 absolute" alt="" /> -->
+      "Porque conectarnos más allá de la distancia es posible"
+      <!-- <img :src="quoteR" class="w-10 absolute right-0" alt="" /> -->
+    </h1>
   </div>
 </template>
 <script setup>

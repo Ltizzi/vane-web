@@ -1,17 +1,18 @@
 <template lang="">
+  <Navbar />
   <div
-    class="flex flex-col gap-7 font-playfair lg:h-screen pt-24 text-2xl relative"
+    class="flex flex-col gap-7 font-playfair lg:h-auto 2xl:h-screen pt-0 text-2xl relative"
   >
     <img
       :src="bg"
-      class="absolute opacity-25 top-0 lg:h-screen h-full lg:w-screen object-cover"
+      class="absolute opacity-15 top-0 lg:h-auto 2xl:h-screen h-full lg:w-full object-cover lg:object-contain"
       alt=""
     />
-    <img
+    <!-- <img
       :src="border"
       alt=""
       class="w-3/5 h-16 object-cover opacity-35 mx-auto"
-    />
+    /> -->
     <div
       class="lg:mx-24 mx-5 px-5 flex flex-col gap-10 py-10 indent-16 leading-10 text-justify"
     >
@@ -53,11 +54,11 @@
       </p>
     </div>
 
-    <img
+    <!-- <img
       :src="border"
       alt=""
       class="w-3/5 h-16 object-cover opacity-35 mx-auto"
-    />
+    /> -->
   </div>
   <Contact />
   <Footer />
@@ -71,6 +72,7 @@
   import bgImg from "../assets/mountain.png";
   import avatarImg from "../assets/avatar_ph.png";
   import WhatsappBtn from "./WhatsappBtn.vue";
+  import Navbar from "./Navbar.vue";
 
   const border = ref(borderImg);
   const bg = ref(bgImg);

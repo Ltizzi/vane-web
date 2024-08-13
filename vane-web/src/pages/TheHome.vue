@@ -1,5 +1,5 @@
 <template lang="">
-  <div>
+  <div class="w-screen">
     <Navbar></Navbar>
     <Landing></Landing>
     <!-- <TerapyTypesRedux></TerapyTypesRedux> -->
