@@ -1,5 +1,27 @@
 <template lang="">
-  <div class="flex flex-col justify-center mx-10 -mt-10 font-serif h-screen">
+  <div
+    class="flex flex-col justify-center w-screen h-screen"
+    :style="{
+      backgroundImage: ` url(${roomPhoto})`,
+      backgroundSize: 'cover ',
+      backgroundRepeate: 'no-repeat',
+      height: 'screen',
+    }"
+  >
+    <div
+      class="bg-black bg-opacity-50 w-full h-full flex flex-col justify-center gap-5"
+    >
+      <h1
+        class="text-white font-bold font-playfair text-6xl w-1/3 mx-auto text-center"
+      >
+        Licenciada Vanesa Carlotto Miranda
+      </h1>
+      <button class="btn btn-accent text-white w-20 mx-auto">Contacto</button>
+    </div>
+  </div>
+  <!-- <div
+    class="flex flex-col justify-center mx-10 -mt-10 lg:mt-10 font-serif h-screen"
+  >
     <div
       class="bg-stone-300 py-5 px-34 text-stone-900 2xl:ml-20 2xl:flex 2xl:flex-col 2xl:h-3/4 2xl:pt-12 2xl:relative 2xl:w-8/12 2xl:pl-14 rounded-xl shadow-xl shadow-neutral"
     >
@@ -8,7 +30,7 @@
       </h1>
       <img
         :src="roomPhoto"
-        class="absolute mt-5 w-full 2xl:w-8/12 2xl:left-2/3 2xl:top-16 rounded-xl"
+        class="mt-5 w-full lg:w-4/12 lg:right-0 2xl:w-8/12 2xl:left-2/3 2xl:top-16 rounded-xl"
         alt=""
       />
       <button
@@ -61,7 +83,7 @@
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum.
     </p>
-  </div>
+  </div> -->
 </template>
 <script setup>
   import roomPhotoSRC from "../assets/ph-room.png";

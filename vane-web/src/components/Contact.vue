@@ -1,5 +1,5 @@
 <template lang="">
-  <div class="bg-secondary flex-col lg:flex-row flex w-full lg:h-auto">
+  <div class="bg-stone-600 flex-col lg:flex-row flex w-full lg:h-auto">
     <div
       class="text-white text-6xl py-16 font-playfair font-semibold text-center flex flex-col gap-5 justify-center lg:hidden"
     >
@@ -9,9 +9,9 @@
         <h3 class="text-2xl italic">haz una consulta</h3>
       </div>
     </div>
-    <div class="lg:w-1/2 bg-primary">
+    <div class="lg:w-1/2 bg-stone-400">
       <div
-        class="w-96 bg-opacity-95 py-7 px-5 bg-primary-content mx-auto my-20 rounded-xl flex flex-col gap-4 justify-center shadow-2xl shadow-secondary-content"
+        class="w-96 py-7 px-5 bg-slate-50-content mx-auto my-20 rounded-xl flex flex-col gap-4 justify-center shadow-2xl shadow-secondary-content"
       >
         <input
           type="text"
