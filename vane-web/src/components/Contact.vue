@@ -9,7 +9,7 @@
         <h3 class="text-2xl italic">haz una consulta</h3>
       </div>
     </div>
-    <div class="lg:w-1/2 bg-stone-400">
+    <div class="lg:w-1/2 bg-white">
       <div
         class="w-96 py-7 px-5 bg-slate-50-content mx-auto my-20 rounded-xl flex flex-col gap-4 justify-center shadow-2xl shadow-secondary-content"
       >

@@ -2,7 +2,7 @@
   <div>
     <Navbar></Navbar>
     <Landing></Landing>
-    <TerapyTypesRedux></TerapyTypesRedux>
+    <!-- <TerapyTypesRedux></TerapyTypesRedux> -->
     <Navigation></Navigation>
     <WhatsappBtn></WhatsappBtn>
     <Contact> </Contact>
