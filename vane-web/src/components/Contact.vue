@@ -42,7 +42,7 @@
     </div>
 
     <div
-      class="text-orange-50 lg:text-6xl font-playfair font-semibold text-center lg:flex flex-col gap-5 justify-center hidden md:w-1/2"
+      class="text-orange-50 lg:text-6xl font-perandory font-semibold text-center lg:flex flex-col gap-5 justify-center hidden md:w-1/2"
     >
       <h1>Contacto</h1>
       <div class="flex flex-col text-6xl">
