@@ -1,6 +1,6 @@
 <template lang="">
   <div
-    class="animate-bounce transition-all duration-150 bottom-20 fixed right-16"
+    class="animate-bounce transition-all duration-150 bottom-20 fixed right-16 2xl:right-20"
   >
     <font-awesome-icon
       :icon="['fab', 'whatsapp']"
