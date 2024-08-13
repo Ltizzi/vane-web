@@ -1,7 +1,7 @@
 <template lang="">
   <Navbar />
 
-  <div class="relative font-playfair">
+  <div class="relative font-poppins">
     <img
       :src="bgFAQ"
       alt=""

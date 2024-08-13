@@ -2,7 +2,9 @@
   <div class="navbar bg-base-100 z-50">
     <div class="flex-1">
       <router-link to="/">
-        <a class="btn btn-ghost text-xl">Vanesa Carloto Miranda</a>
+        <a class="btn btn-ghost text-xl hover:cursor-pointer"
+          >Vanesa Carloto Miranda</a
+        >
       </router-link>
     </div>
     <div class="flex-none">

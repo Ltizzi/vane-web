@@ -3,8 +3,10 @@ export default {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     fontFamily: {
-      montserrat: ["Montserrat"],
+      // montserrat: ["Montserrat"],
       playfair: ["Playfair"],
+      poppins: ["Poppins"],
+      perandory: ["Perandory"],
     },
 
     extend: {},

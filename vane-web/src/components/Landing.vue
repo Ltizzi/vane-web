@@ -13,12 +13,12 @@
       class="bg-black bg-opacity-50 w-full text-center h-full flex flex-col justify-center gap-5"
     >
       <h1
-        class="text-white font-bold font-playfair text-4xl mx-auto w-full lg:text-6xl 2xl:text-8xl lg:w-2/3"
+        class="text-white font-perandory text-4xl mx-auto w-full lg:text-6xl 2xl:text-8xl lg:w-2/3"
       >
         Lic. Vanesa Carlotto Miranda
       </h1>
       <h1
-        class="text-white font-semibold italic font-playfair text-3xl ml-32 -mt-5 text-center w-full lg:text-5xl"
+        class="text-white italic font-perandory text-3xl ml-32 -mt-5 text-center w-full lg:text-5xl"
       >
         Psicóloga
       </h1>

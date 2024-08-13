@@ -1,11 +1,11 @@
 <template lang="">
   <Navbar />
   <div
-    class="flex flex-col gap-7 font-playfair lg:h-auto 2xl:h-screen pt-0 text-2xl relative"
+    class="flex flex-col gap-7 font-playfair lg:h-auto 2xl:h-auto pt-0 text-2xl relative 2xl:my-40"
   >
     <img
       :src="bg"
-      class="absolute opacity-15 top-0 lg:h-auto 2xl:h-screen h-full lg:w-full object-cover lg:object-contain"
+      class="absolute opacity-15 top-0 lg:h-auto 2xl:h-screen 2xl:-top-60 2xl:object-fill h-full lg:w-full object-cover lg:object-contain -z-50"
       alt=""
     />
     <!-- <img
@@ -14,7 +14,7 @@
       class="w-3/5 h-16 object-cover opacity-35 mx-auto"
     /> -->
     <div
-      class="lg:mx-24 mx-5 px-5 flex flex-col gap-10 py-10 indent-16 leading-10 text-justify"
+      class="lg:mx-24 mx-5 px-5 flex flex-col gap-10 py-10 indent-16 leading-10 text-justify font-poppins"
     >
       <div class="flex flex-col lg:flex-row gap-5 justify-center my-auto">
         <div class="avatar lg:hidden">

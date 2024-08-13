@@ -8,7 +8,7 @@
       alt=""
     />
     <div
-      class="flex flex-col gap-10 justify-start font-playfair lg:mx-20 pt-10 relative"
+      class="flex flex-col gap-10 justify-start font-poppins lg:mx-20 pt-10 relative"
     >
       <h1 class="text-6xl text-center">Tratamientos</h1>
       <!-- <img
