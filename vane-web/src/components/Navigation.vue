@@ -34,9 +34,9 @@
       </div>
     </div>
   </div>
-  <div class="h-auto text-center">
+  <div class="h-auto text-center flex justify-center">
     <h1
-      class="text-stone-800 relative font-semibold text-6xl font-playfair w-2/3 italic mx-auto my-96 flex flex-row align-middle"
+      class="text-stone-800 text-7xl font-yesteryear italic mx-auto my-96 flex flex-row align-middle"
     >
       <!-- <img :src="quoteL" class="w-10 absolute" alt="" /> -->
       "Porque conectarnos más allá de la distancia es posible"

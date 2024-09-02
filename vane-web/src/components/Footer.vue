@@ -29,7 +29,9 @@
       </div>
     </nav>
   </footer>
-  <footer class="footer footer-center bg-stone-500 text-orange-50 p-5">
+  <footer
+    class="footer footer-center bg-gradient-to-br from-stone-600 to-stone-800 text-orange-50 p-5"
+  >
     <aside>
       <p class="font-bold">
         Leonardo Terlizzi

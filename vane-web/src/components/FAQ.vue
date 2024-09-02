@@ -7,21 +7,21 @@
       alt=""
       class="lg:h-auto hidden lg:flex lg:w-screen lg:object-scale-down absolute top-0 opacity-10"
     />
-    <div class="flex flex-col justify-start gap-5 lg:mx-20 mx-5 bg-base">
-      <h1 class="text-center font-semibold text-5xl py-7">
+    <div class="flex flex-col justify-start gap-5 lg:mx-20 mx-10 bg-base">
+      <h1 class="text-center font-semibold lg:text-5xl text-3xl py-7">
         Preguntas Frecuentes
       </h1>
-      <h1 class="text-3xl font-semibold">
+      <h1 class="lg:text-3xl text-xl font-semibold">
         ¿En qué ayuda la terapia psicológica?
       </h1>
-      <p class="text-xl">
+      <p class="lg:text-xl text-lg text-justify">
         Contribuye a mejorar la salud mental y el bienestar emocional. A través
         del proceso terapéutico, ayudaré a que las personas pueden abordar y
         superar una variedad de desafíos emocionales y psicológicos.
       </p>
-      <h1 class="text-2xl">Te acompaño en:</h1>
-      <ul class="text-xl flex flex-col gap-6 mx-5 text-justify">
-        <li>
+      <h1 class="lg:text-2xl text-xl underline">Te acompaño en:</h1>
+      <ul class="flex flex-col lg:text-xl text-lg gap-6 mx-0 text-justify">
+        <li class="text-justify">
           El camino del autoconocimiento y crecimiento personal, brindando un
           espacio seguro y confidencial para explorar tus pensamientos,
           emociones y comportamientos. Este autoconocimiento puede llevar a un
@@ -65,13 +65,13 @@
         </li>
       </ul>
 
-      <div class="divider divider-secondary"></div>
+      <!-- <div class="divider divider-secondary"></div> -->
 
-      <h1 class="text-3xl font-semibold my-3">
+      <h1 class="lg:text-3xl text-2xl font-semibold my-3">
         ¿Por qué elegir tratamiento online?
       </h1>
-      <div class="text-xl">
-        <p class="indent-10">
+      <div class="lg:text-xl text-lg">
+        <p class="indent-0 text-justify">
           Este tipo de terapia ofrece varias ventajas, como mayor accesibilidad
           para personas en áreas remotas, flexibilidad en horarios de sesión y
           comodidad al recibir tratamiento desde el hogar. Es posible ofrecer
@@ -79,10 +79,10 @@
           técnicas y métodos tradicionales al entorno digital para garantizar
           resultados positivos para mis pacientes.
         </p>
-        <h2 class="text-2xl font-semibold my-5">
+        <h2 class="lg:text-2xl text-xl font-semibold my-5">
           Te invito a descubrir las ventajas de la psicoterapia virtual:
         </h2>
-        <ul class="text-xl flex flex-col gap-6 mx-5 text-justify">
+        <ul class="lg:text-xl text-lg flex flex-col gap-6 mx-0 text-justify">
           <li>
             Acceder a tratamiento desde cualquier ubicación geográfica, incluso
             áreas remotas donde los servicios presenciales podrían ser
@@ -99,7 +99,7 @@
             consulta presencial.
           </li>
         </ul>
-        <p>
+        <p class="text-justify py-2">
           La psicoterapia virtual no solo mejora la accesibilidad y la
           flexibilidad del tratamiento psicológico, sino que también puede hacer
           que la terapia sea más cómoda y menos intimidante para algunas

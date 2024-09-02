@@ -16,22 +16,22 @@
         <input
           type="text"
           placeholder="Nombre"
-          class="input input-bordered input-warning w-full max-w-xs bg-secondary-content bg-opacity-20 mx-auto text-white font-playfair text-lg placeholder:text-white"
+          class="input w-full focus:input-warning max-w-xs rounded-none bg-secondary-content bg-opacity-20 mx-auto text-white font-playfair text-lg placeholder:text-white"
         />
         <input
           type="text"
           placeholder="Teléfono"
-          class="input input-bordered input-warning w-full max-w-xs bg-secondary-content bg-opacity-20 mx-auto text-white font-playfair text-lg placeholder:text-white"
+          class="input focus:input-warning rounded-none w-full max-w-xs bg-secondary-content bg-opacity-20 mx-auto text-white font-playfair text-lg placeholder:text-white"
         />
 
         <input
           type="text"
           placeholder="E-mail"
-          class="input input-bordered input-warning w-full max-w-xs bg-secondary-content bg-opacity-20 mx-auto text-white font-playfair text-lg placeholder:text-white"
+          class="input focus:input-warning rounded-none w-full max-w-xs bg-secondary-content bg-opacity-20 mx-auto text-white font-playfair text-lg placeholder:text-white"
         />
 
         <textarea
-          class="textarea textarea-warning bg-secondary-content bg-opacity-30 mx-2 text-white font-playfair text-lg placeholder:text-white"
+          class="textarea focus:textarea-warning rounded-none bg-secondary-content bg-opacity-30 mx-2 text-white font-playfair text-lg placeholder:text-white"
           placeholder="Mensaje"
           rows="7"
         ></textarea>

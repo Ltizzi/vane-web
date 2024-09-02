@@ -7,6 +7,7 @@ export default {
       playfair: ["Playfair"],
       poppins: ["Poppins"],
       perandory: ["Perandory"],
+      yesteryear: ["Yesteryear"],
     },
 
     extend: {},
