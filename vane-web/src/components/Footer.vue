@@ -1,6 +1,10 @@
 <template lang="">
-  <footer class="footer bg-base-300 text-base-content p-10 justify-around">
-    <nav>
+  <footer
+    class="footer bg-base-300 text-base-content p-10 justify-around items-center flex lg:flex-row flex-col"
+  >
+    <nav
+      class="justify-center lg:justify-start lg:items-start flex flex-col items-center"
+    >
       <h6 class="footer-title">Links</h6>
       <router-link to="/">
         <a class="link link-hover">Inicio</a>
@@ -20,7 +24,9 @@
         <a class="link link-hover">Contacto</a>
       </router-link>
     </nav>
-    <nav>
+    <nav
+      class="justify-center lg:justify-start lg:items-start flex flex-col items-center"
+    >
       <h6 class="footer-title">Social</h6>
       <div class="grid grid-flow-col gap-4">
         <font-awesome-icon :icon="['fab', 'whatsapp']" class="size-7" />

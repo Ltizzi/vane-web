@@ -1,7 +1,7 @@
 <template lang="">
   <Navbar />
   <div
-    class="flex flex-col gap-7 font-playfair lg:h-auto 2xl:h-auto pt-0 lg:text-2xl text-lg relative 2xl:my-40"
+    class="flex flex-col gap-7 font-playfair lg:h-auto 2xl:h-auto pt-0 lg:text-xl text-lg relative 2xl:my-40"
   >
     <img
       :src="bg"
@@ -14,37 +14,72 @@
       class="w-3/5 h-16 object-cover opacity-35 mx-auto"
     /> -->
     <div
-      class="lg:mx-24 mx-5 px-5 flex flex-col gap-10 py-10 indent-10 leading-10 text-justify font-poppins"
+      class="lg:mx-24 mx-5 px-5 flex flex-col gap-10 py-10 indent-0 leading-10 text-justify font-poppins"
     >
       <div class="flex flex-col lg:flex-row gap-5 justify-center my-auto">
         <div class="avatar lg:hidden">
-          <div class="lg:w-40 lg:h-auto size-28 rounded-full mx-auto">
+          <div class="lg:w-40 lg:h-auto size-max rounded-md mx-auto">
             <img :src="avatar" alt="" />
           </div>
         </div>
-        <p class="mt-10">
-          Soy Vanesa Carlotto Miranda, Licenciada en Psicología de la Facultad
-          de Ciencias Empresariales y Sociales (UCES), MN.56669 MP.74831.
-          Profesora en Educación Especial con Orientación en Discapacidad Mental
-          en el Instituto Superior del Profesorado en Educación Especial
-          (Ispee). Especialista en Psicología Clínica con Niños y Adolescentes
-          de UBA.
-        </p>
+        <div class="flex flex-col gap-5">
+          <p class="mt-10">
+            Soy Vanesa Carlotto Miranda, Licenciada en Psicología de la Facultad
+            de Ciencias Empresariales y Sociales (UCES), MN.56669 MP.74831.
+            Profesora en Educación Especial con Orientación en Discapacidad
+            Mental en el Instituto Superior del Profesorado en Educación
+            Especial (Ispee). Especialista en Psicología Clínica con Niños y
+            Adolescentes de la Universidad de Buenos Aires (UBA).
+          </p>
+          <!--         Soy Vanesa Carlotto Miranda, Licenciada en Psicología de la Facultad
+            de Ciencias Empresariales y Sociales (UCES), MN.56669 MP.74831.
+            Profesora en Educación Especial con Orientación en Discapacidad
+            Mental en el Instituto Superior del Profesorado en Educación
+            Especial (Ispee). Especialista en Psicología Clínica con Niños y
+            Adolescentes de UBA.
+            
+              Cuento con más de una década de experiencia de experiencia en el
+            ámbito de la salud mental, brindando atención a personas de todas
+            las edades que atraviesan diversas dificultades emocionales y
+            psicológicas. En mi práctica profesional busco crear un espacio
+            seguro y confidencial donde mis pacientes puedan explorar sus
+            pensamientos, sentimientos y experiencias trabajando juntos para
+            desarrollar estrategias efectivas para afrontar los desafíos que
+            enfrentan.
+
+                  Creo en la capacidad de cada persona para crecer y mejorar su calidad de
+        vida. Mi compromiso es acompañar a mis pacientes en este proceso,
+        brindándoles las herramientas y el apoyo necesarios para alcanzar su
+        bienestar emocional.
+            -->
+          <p class="hidden lg:flex">
+            Cuento con más de una década de experiencia en el ámbito de la salud
+            mental, brindando atención a personas de todas las edades que
+            atraviesan dificultades emocionales y psicológicas. En mi práctica
+            profesional busco crear un espacio seguro y confidencial donde mis
+            pacientes puedan explorar sus pensamientos, sentimientos y
+            experiencias trabajando desarrollando juntos estrategias efectivas
+            para afrontar los desafíos que enfrentan.
+          </p>
+        </div>
+
         <div class="avatar hidden lg:flex">
-          <div class="lg:w-40 lg:h-auto w-14 h-14 rounded-xl">
+          <div
+            class="lg:w-80 lg:object-fill lg:h-auto mt-10 w-14 h-14 rounded-xl"
+          >
             <img :src="avatar" alt="" />
           </div>
         </div>
       </div>
 
-      <p>
-        Cuento con más de una década de experiencia de experiencia en el ámbito
-        de la salud mental, brindando atención a personas de todas las edades
-        que atraviesan diversas dificultades emocionales y psicológicas. En mi
-        práctica profesional busco crear un espacio seguro y confidencial donde
-        mis pacientes puedan explorar sus pensamientos, sentimientos y
-        experiencias trabajando juntos para desarrollar estrategias efectivas
-        para afrontar los desafíos que enfrentan.
+      <p class="lg:hidden">
+        Cuento con más de una década de experiencia en el ámbito de la salud
+        mental, brindando atención a personas de todas las edades que atraviesan
+        dificultades emocionales y psicológicas. En mi práctica profesional
+        busco crear un espacio seguro y confidencial donde mis pacientes puedan
+        explorar sus pensamientos, sentimientos y experiencias trabajando
+        desarrollando juntos estrategias efectivas para afrontar los desafíos
+        que enfrentan.
       </p>
       <p>
         Creo en la capacidad de cada persona para crecer y mejorar su calidad de
@@ -70,7 +105,7 @@
   import Contact from "./Contact.vue";
   import Footer from "./Footer.vue";
   import bgImg from "../assets/mountain.png";
-  import avatarImg from "../assets/avatar_ph.png";
+  import avatarImg from "../assets/profile.jpg";
   import WhatsappBtn from "./WhatsappBtn.vue";
   import Navbar from "./Navbar.vue";
 

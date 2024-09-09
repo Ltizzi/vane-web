@@ -4,7 +4,7 @@
   >
     <font-awesome-icon
       :icon="['fab', 'whatsapp']"
-      class="size-6 2xl:size-12 lg:size-7 text-white fixed rounded-full p-1.5 shadow-lg shadow-gray-500 bg-green-500 animate-bounce hover:cursor-pointer"
+      class="size-8 2xl:size-12 lg:size-10 text-white fixed rounded-full p-1.5 shadow-lg shadow-gray-500 bg-green-500 animate-bounce hover:cursor-pointer"
     />
   </div>
 </template>
