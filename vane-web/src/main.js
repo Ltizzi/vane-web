@@ -36,7 +36,7 @@ library.add(
 
 const app = createApp(App);
 
-export const API_URL = "http://localhost:8000";
+export const API_URL = "https://vane-web.onrender.com"; //"http://localhost:8000";
 
 app.component("font-awesome-icon", FontAwesomeIcon);
 app.use(router);
