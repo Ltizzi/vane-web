@@ -13,6 +13,7 @@ async function starServer() {
   server.listen(PORT, () => {
     console.log(`Listening on port ${PORT}...`);
     console.log("mail...", process.env.EMAIL);
+    console.log(process.env.PASSWORD);
   });
 }
 
