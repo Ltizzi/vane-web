@@ -286,7 +286,7 @@
   async function postData(data) {
     let response = await fetch(`${API_URL}/api/send-email`, {
       method: "POST",
-      mode: "cors",
+      // mode: "cors",
       headers: {
         "Content-Type": "application/json",
       },
