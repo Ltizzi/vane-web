@@ -1,10 +1,32 @@
 const express = require("express");
 const helmet = require("helmet");
 const nodemailer = require("nodemailer");
+const cors = require("cors");
 const app = express();
 
 app.use(express.json());
 app.use(helmet());
+// app.use(
+//   cors({
+//     origin: process.env.CLIENT_URL,
+//   })
+// );
+
+const allowedOrigins = [process.env.CLIENT_URL];
+
+app.use(
+  cors({
+    origin: function (origin, callback) {
+      if (!origin || allowedOrigins.indexOf(origin) !== -1) {
+        callback(null, true);
+      } else {
+        callback(new Error("Not allowed by CORS"));
+      }
+    },
+  })
+);
+
+//process.env.DEV_CLIENT_URL,"http://localhost:5174"
 
 const transporter = nodemailer.createTransport({
   service: "hotmail",
@@ -72,7 +94,7 @@ function generateTemplate(data) {
     </br>
     <h4>Mensaje: </h4>
     </br>
-    <p>${data.text}</p>
+    <h5>${data.text}</h5>
     </br>
     <h5></h5>
     `;

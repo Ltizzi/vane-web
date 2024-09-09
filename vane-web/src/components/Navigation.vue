@@ -16,7 +16,7 @@
       <div class="text-center align-middle my-44">
         <router-link to="/info">
           <button
-            class="btn btn-accent text-white align-middle font-playfair capitalize text-2xl hover:bg-secondary-content rounded-none border-4 border-accent border-transparent"
+            class="btn btn-accent text-white align-middle font-playfair capitalize text-2xl hover:bg-secondary-content rounded-none border-4 border-accent border-transparent hover:border-secondary-content"
           >
             Terapias
           </button>
@@ -26,7 +26,7 @@
     <div class="col-span-2 h-full bg-stone-600 bg-opacity-70">
       <div class="text-center align-middle my-44">
         <button
-          class="btn btn-accent text-white align-middle font-playfair capitalize text-2xl hover:bg-secondary-content rounded-none border-4 border-accent border-transparent"
+          class="btn btn-accent text-white align-middle font-playfair capitalize text-2xl hover:bg-secondary-content rounded-none border-4 border-accent border-transparent hover:border-secondary-content"
           @click="goTo('faq')"
         >
           Preguntas frecuentes

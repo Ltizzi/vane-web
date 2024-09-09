@@ -36,6 +36,8 @@ library.add(
 
 const app = createApp(App);
 
+export const API_URL = "http://localhost:8000";
+
 app.component("font-awesome-icon", FontAwesomeIcon);
 app.use(router);
 app.mount("#app");

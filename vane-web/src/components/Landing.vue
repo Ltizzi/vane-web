@@ -24,7 +24,8 @@
         Psicóloga
       </h1>
       <button
-        class="btn btn-accent text-white w-20 mx-auto rounded-none border-4 border-accent border-transparent"
+        class="btn btn-accent text-white w-24 mx-auto rounded-none border-4 border-accent border-transparent font-playfair text-lg"
+        @click="scrollToContact"
       >
         Contacto
       </button>
@@ -36,4 +37,10 @@
   import { ref } from "vue";
 
   const roomPhoto = ref(roomPhotoSRC);
+
+  const emit = defineEmits(["scroll"]);
+
+  function scrollToContact() {
+    emit("scroll");
+  }
 </script>

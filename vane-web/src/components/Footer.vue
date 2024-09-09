@@ -29,9 +29,21 @@
     >
       <h6 class="footer-title">Social</h6>
       <div class="grid grid-flow-col gap-4">
-        <font-awesome-icon :icon="['fab', 'whatsapp']" class="size-7" />
-        <font-awesome-icon :icon="['fab', 'instagram']" class="size-7" />
-        <font-awesome-icon :icon="['fab', 'linkedin']" class="size-7" />
+        <a href="https://wa.me/5491140507052" target="_blank">
+          <font-awesome-icon
+            :icon="['fab', 'whatsapp']"
+            class="size-7 hover:scale-110 duration-150 transition-all ease-in-out hover:text-secondary"
+          />
+        </a>
+
+        <font-awesome-icon
+          :icon="['fab', 'instagram']"
+          class="size-7 hover:scale-110 duration-150 transition-all ease-in-out hover:text-secondary"
+        />
+        <font-awesome-icon
+          :icon="['fab', 'linkedin']"
+          class="size-7 hover:scale-110 duration-150 transition-all ease-in-out hover:text-secondary"
+        />
       </div>
     </nav>
   </footer>
@@ -48,8 +60,18 @@
     </aside>
     <nav>
       <div class="grid grid-flow-col gap-4 -mt-7">
-        <font-awesome-icon :icon="['fab', 'github']" class="size-7" />
-        <font-awesome-icon :icon="['fab', 'linkedin']" class="size-7" />
+        <a href="https://github.com/Ltizzi" target="_blank">
+          <font-awesome-icon
+            :icon="['fab', 'github']"
+            class="size-7 hover:scale-110 duration-150 transition-all ease-in-out hover:text-accent"
+          />
+        </a>
+        <a href="https://www.linkedin.com/in/lterlizzi/" target="_blank">
+          <font-awesome-icon
+            :icon="['fab', 'linkedin']"
+            class="size-7 hover:scale-110 duration-150 transition-all ease-in-out hover:text-accent"
+          />
+        </a>
       </div>
     </nav>
   </footer>

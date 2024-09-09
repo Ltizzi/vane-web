@@ -1,11 +1,11 @@
 <template lang="">
   <div class="w-auto overflow-x-hidden">
     <Navbar></Navbar>
-    <Landing></Landing>
+    <Landing @scroll="scroll"></Landing>
     <!-- <TerapyTypesRedux></TerapyTypesRedux> -->
     <Navigation></Navigation>
     <WhatsappBtn></WhatsappBtn>
-    <Contact> </Contact>
+    <Contact id="contact"> </Contact>
     <Footer></Footer>
   </div>
 </template>
@@ -17,4 +17,12 @@
   import Contact from "../components/Contact.vue";
   import Footer from "../components/Footer.vue";
   import Navbar from "../components/Navbar.vue";
+
+  function scroll() {
+    const contact = document.getElementById("contact");
+    if (contact) {
+      console.log(contact, "asdasd");
+      contact.scrollIntoView({ behavior: "smooth" });
+    }
+  }
 </script>
