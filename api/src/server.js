@@ -12,6 +12,7 @@ const PORT = process.env.PORT || 8080;
 async function starServer() {
   server.listen(PORT, () => {
     console.log(`Listening on port ${PORT}...`);
+    console.log("mail...", process.env.EMAIL);
   });
 }
 
