@@ -12,7 +12,7 @@ app.use(helmet());
 //   })
 // );
 
-const allowedOrigins = "https://vane-web-git-main-ltizzis-projects.vercel.app/";
+const allowedOrigins = "https://vane-web-git-main-ltizzis-projects.vercel.app";
 
 app.use(
   cors({
