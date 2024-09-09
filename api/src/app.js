@@ -12,7 +12,7 @@ app.use(helmet());
 //   })
 // );
 
-const allowedOrigins = [process.env.CLIENT_URL];
+const allowedOrigins = "https://vane-web-git-main-ltizzis-projects.vercel.app/";
 
 app.use(
   cors({
