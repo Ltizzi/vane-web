@@ -12,19 +12,19 @@ app.use(helmet());
 //   })
 // );
 
-const allowedOrigins = "https://vane-web-git-main-ltizzis-projects.vercel.app";
+// const allowedOrigins = "https://vane-web-git-main-ltizzis-projects.vercel.app";
 
-app.use(
-  cors({
-    origin: function (origin, callback) {
-      if (!origin || allowedOrigins.indexOf(origin) !== -1) {
-        callback(null, true);
-      } else {
-        callback(new Error("Not allowed by CORS"));
-      }
-    },
-  })
-);
+// app.use(
+//   cors({
+//     origin: function (origin, callback) {
+//       if (!origin || allowedOrigins.indexOf(origin) !== -1) {
+//         callback(null, true);
+//       } else {
+//         callback(new Error("Not allowed by CORS"));
+//       }
+//     },
+//   })
+// );
 
 //process.env.DEV_CLIENT_URL,"http://localhost:5174"
 
@@ -40,7 +40,7 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-app.options("*", cors());
+// app.options("*", cors());
 
 app.post("/api/send-email", async (req, res) => {
   const data = req.body;
