@@ -39,6 +39,8 @@ const transporter = nodemailer.createTransport({
   },
 });
 
+app.options("*", cors());
+
 app.post("/api/send-email", async (req, res) => {
   const data = req.body;
 
@@ -59,6 +61,10 @@ app.post("/api/send-email", async (req, res) => {
       .status(500)
       .json({ message: "Se ha producido un error al enviar el mail", error });
   }
+});
+
+app.get("/api/ping", async (req, res) => {
+  return res.status(200).json({ message: "OK" });
 });
 
 function generateText(data) {
