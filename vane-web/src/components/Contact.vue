@@ -266,6 +266,14 @@
     }
   }
 
+  function cleanFields() {
+    cleanField("email");
+    cleanField("name");
+    cleanField("phone");
+    cleanField("subject");
+    cleanField("text");
+  }
+
   function validateFields() {
     validateField("email");
     validateField("name");
@@ -309,11 +317,12 @@
       const response = await postData(data);
       console.log(response);
       if (response.info) {
+        cleanFields();
         state.isWaiting = false;
         state.success = true;
         setTimeout(() => {
           state.success = false;
-        }, 2000);
+        }, 3000);
       } else {
         state.isWaiting = false;
         state.error = true;
