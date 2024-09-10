@@ -32,7 +32,7 @@ app.use(
 
 const transporter = nodemailer.createTransport({
   //service: "hotmail",
-  host: smtp.zoho.com,
+  host: "smtp.zoho.com",
   port: 465,
   secure: true,
   auth: {
