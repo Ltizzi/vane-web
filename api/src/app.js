@@ -12,42 +12,47 @@ app.use(helmet());
 //   })
 // );
 
-// const allowedOrigins = "https://vane-web-git-main-ltizzis-projects.vercel.app";
+//const allowedOrigins = "https://vane-web-git-main-ltizzis-projects.vercel.app";
 
-// app.use(
-//   cors({
-//     origin: function (origin, callback) {
-//       if (!origin || allowedOrigins.indexOf(origin) !== -1) {
-//         callback(null, true);
-//       } else {
-//         callback(new Error("Not allowed by CORS"));
-//       }
-//     },
-//   })
-// );
+app.use(
+  cors({
+    origin: process.env.CLIENT_URL,
+  })
+);
+
+// function (origin, callback) {
+//   if (!origin || allowedOrigins.indexOf(origin) !== -1) {
+//     callback(null, true);
+//   } else {
+//     callback(new Error("Not allowed by CORS"));
+//   }
+// },
 
 //process.env.DEV_CLIENT_URL,"http://localhost:5174"
 
 const transporter = nodemailer.createTransport({
-  service: "hotmail",
+  //service: "hotmail",
+  host: smtp.zoho.com,
+  port: 465,
+  secure: true,
   auth: {
     user: process.env.EMAIL,
     pass: process.env.PASSWORD,
   },
-  tls: {
-    ciphers: "SSLv3",
-    rejectUnauthorized: false,
-  },
+  // tls: {
+  //   ciphers: "SSLv3",
+  //   rejectUnauthorized: false,
+  // },
 });
 
-// app.options("*", cors());
+app.options("*", cors());
 
 app.post("/api/send-email", async (req, res) => {
   const data = req.body;
 
   const mailOptions = {
     from: `API Service <${process.env.EMAIL}>`,
-    to: process.env.EMAIL,
+    to: process.env.TO,
     subject: data.subject,
     text: generateText(data),
     html: generateTemplate(data),
