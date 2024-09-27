@@ -5,7 +5,7 @@
   >
     <img
       :src="bg"
-      class="absolute opacity-15 top-0 lg:h-auto 2xl:h-screen 2xl:-top-60 2xl:object-fill h-full lg:w-full object-cover lg:object-contain -z-50"
+      class="absolute opacity-15 top-0 lg:h-auto 2xl:h-auto 2xl:-top-60 2xl:object-fill h-full lg:w-full object-cover lg:object-contain -z-50"
       alt=""
     />
     <!-- <img
@@ -81,7 +81,7 @@
   import borderImg from "../assets/border-t-alt.svg";
   import Contact from "./Contact.vue";
   import Footer from "./Footer.vue";
-  import bgImg from "../assets/mountain.png";
+  import bgImg from "../assets/landing.png";
   import avatarImg from "../assets/profile.jpg";
   import WhatsappBtn from "./WhatsappBtn.vue";
   import Navbar from "./Navbar.vue";

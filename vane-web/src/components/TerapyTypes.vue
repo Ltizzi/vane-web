@@ -168,7 +168,7 @@
 <script setup>
   import { ref } from "vue";
   import borderImg from "../assets/border-corner.svg";
-  import bgImg from "../assets/sunset.jpg";
+  import bgImg from "../assets/landing.jpg";
   import Contact from "./Contact.vue";
   import Footer from "./Footer.vue";
   import WhatsappBtn from "./WhatsappBtn.vue";

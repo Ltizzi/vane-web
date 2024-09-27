@@ -5,7 +5,7 @@
     <img
       :src="bgFAQ"
       alt=""
-      class="lg:h-auto hidden lg:flex lg:w-screen lg:object-scale-down absolute top-0 opacity-10"
+      class="lg:h-auto hidden lg:flex lg:w-screen lg:object-fill 2xl:object-cover 2xl:h-full -z-10 absolute top-0 opacity-10"
     />
     <div
       class="flex flex-col justify-start gap-5 lg:mx-20 mx-10 bg-base text-start"
@@ -117,7 +117,7 @@
 </template>
 <script setup>
   import { ref } from "vue";
-  import bgFAQ from "../assets/bg-hands.png";
+  import bgFAQ from "../assets/landing.png";
   import Contact from "./Contact.vue";
   import Footer from "./Footer.vue";
   import WhatsappBtn from "./WhatsappBtn.vue";
