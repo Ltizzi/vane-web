@@ -38,9 +38,7 @@
     <h1
       class="text-stone-800 text-7xl font-yesteryear italic mx-auto my-96 flex flex-row align-middle"
     >
-      <!-- <img :src="quoteL" class="w-10 absolute" alt="" /> -->
       "Porque conectarnos más allá de la distancia es posible"
-      <!-- <img :src="quoteR" class="w-10 absolute right-0" alt="" /> -->
     </h1>
   </div>
 </template>

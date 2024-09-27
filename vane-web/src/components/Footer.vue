@@ -35,7 +35,6 @@
             class="size-7 hover:scale-110 duration-150 transition-all ease-in-out hover:text-secondary"
           />
         </a>
-
         <font-awesome-icon
           :icon="['fab', 'instagram']"
           class="size-7 hover:scale-110 duration-150 transition-all ease-in-out hover:text-secondary"

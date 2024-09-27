@@ -10,24 +10,13 @@
     <div
       class="flex flex-col gap-10 justify-start font-poppins lg:mx-20 pt-10 relative"
     >
-      <!-- <h1 class="lg:text-6xl text-4xl text-center">Tratamientos</h1> -->
-      <!-- <img
-        :src="border"
-        class="absolute top-32 lg:size-96 size-64 left-2 lg:left-0"
-        alt=""
-      /> -->
       <div class="lg:mx-24 mx-10 mt-2">
-        <ul class="flex flex-col lg:gap-7 gap-12">
+        <ul class="flex flex-col lg:gap-7 gap-12 text-start">
           <li class="flex flex-col gap-5">
             <h2 class="lg:text-4xl text-2xl font-semibold">
               Terapia individual Adultos
             </h2>
-            <p class="lg:text-xl text-lg text-justify">
-              <!-- Trabajo con cada paciente adulto la problemática actual que
-              presenta teniendo en cuenta el contexto y su historia. El
-              tratamiento se orienta a la toma de decisiones buscando con el
-              paciente adulto la resolución de conflictos comprendiendo para
-              ello los motivos -->
+            <p class="lg:text-xl text-lg">
               Trabajo con cada paciente adulto la problemática actual que
               presenta teniendo en cuenta el contexto y su historia. El
               tratamiento se orienta a la toma de decisiones buscando con el
@@ -39,14 +28,7 @@
             <h2 class="lg:text-4xl text-2xl font-semibold">
               Terapia individual Adolescentes
             </h2>
-            <p class="lg:text-xl text-lg text-justify">
-              <!-- Acompaño a los adolescentes a superar sus dificultades
-              emocionales, comportamentales y sociales. Se busca desarrollar las
-              habilidades necesarias para afrontar los retos de esta etapa de la
-              vida hacia el tránsito hacia la adultez. Los adolescentes que
-              reciben tratamiento pueden mejorar su estado de ánimo, reducir sus
-              síntomas, desarrollar habilidades de afrontamiento y mejorar sus
-              relaciones con otras personas. -->
+            <p class="lg:text-xl text-lg">
               Acompaño a los adolescentes a superar sus dificultades
               emocionales, comportamentales y sociales. Se busca desarrollar las
               habilidades necesarias para afrontar los retos de esta etapa de la
@@ -62,12 +44,7 @@
               discapacidad
             </h2>
             <div class="flex flex-col gap-5">
-              <p class="lg:text-xl text-lg text-justify">
-                <!-- Los años de trayectoria en el tratamiento a personas con
-                discapacidad me permite proporcionar apoyo emocional,
-                orientación y estrategias para ayudar a los familiares a
-                enfrentar los desafíos asociados. Es así que acompaño a las
-                familias a: -->
+              <p class="lg:text-xl text-lg">
                 Los años de trayectoria en el tratamiento a personas con
                 discapacidad me permite proporcionar apoyo emocional,
                 orientación y estrategias para ayudar a los familiares a
@@ -77,48 +54,31 @@
               <ul
                 class="text-xl lg:gap-5 gap-10 lg:mx-10 lg:ml-7 ml-5 list-disc flex flex-col"
               >
-                <li class="lg:text-xl text-lg text-justify">
-                  <!-- Procesar sus emociones relacionadas con la discapacidad de su
-                  ser querido, como la tristeza, la frustración o la
-                  preocupación. -->
+                <li class="lg:text-xl text-lg">
                   Procesar sus emociones relacionadas con la discapacidad de su
                   ser querido, como la tristeza, la frustración o la
                   preocupación.
                 </li>
-                <li class="lg:text-xl text-lg text-justify">
-                  <!-- Informar a los familiares sobre la discapacidad en cuestión,
-                  sus implicaciones y cómo pueden apoyar mejor a su familiar. -->
+                <li class="lg:text-xl text-lg">
                   Informar a los familiares sobre la discapacidad en cuestión,
                   sus implicaciones y cómo pueden apoyar mejor a su familiar.
                 </li>
-                <li class="lg:text-xl text-lg text-justify">
-                  <!-- Enseñar técnicas para manejar el estrés, la ansiedad y las
-                  demandas adicionales que pueden surgir debido a la
-                  discapacidad. -->
+                <li class="lg:text-xl text-lg">
                   Enseñar técnicas para manejar el estrés, la ansiedad y las
                   demandas adicionales que pueden surgir debido a la
                   discapacidad.
                 </li>
-                <li class="lg:text-xl text-lg text-justify">
-                  <!-- Facilitar la comunicación efectiva entre los miembros de la
-                  familia y ayudar a resolver conflictos que puedan surgir en
-                  relación con la discapacidad. -->
+                <li class="lg:text-xl text-lg">
                   Facilitar la comunicación efectiva entre los miembros de la
                   familia y ayudar a resolver conflictos que puedan surgir en
                   relación con la discapacidad.
                 </li>
-                <li class="lg:text-xl text-lg text-justify">
-                  <!-- Conectar a los familiares con otros profesionales, servicios o
-                  recursos comunitarios que puedan beneficiar tanto al miembro
-                  de la familia con discapacidad como a los cuidadores. -->
+                <li class="lg:text-xl text-lg">
                   Conectar a los familiares con otros profesionales, servicios o
                   recursos que puedan beneficiar tanto al miembro de la familia
                   con discapacidad como a los cuidadores.
                 </li>
-                <li class="lg:text-xl text-lg text-justify">
-                  <!-- Ayudar a las familias a planificar para el futuro, incluyendo
-                  decisiones sobre cuidado a largo plazo, educación y apoyo
-                  continuo. -->
+                <li class="lg:text-xl text-lg">
                   Ayudar a las familias a planificar para el futuro, incluyendo
                   decisiones sobre cuidado a largo plazo, educación y apoyo
                   continuo.

@@ -63,10 +63,7 @@ function generateText(data) {
     Teléfono: ${data.phone ? data.phone : "<no proporcionó teléfono>"}\n
     Email: ${data.email ? data.email : "<no proporcionó email>"}\n
     Asunto: ${data.subject ? data.subject : "<no propocionó asunto>"}
-    \n
-    \n
     Fecha: ${now.toUTCString()}
-    \n
     Mensaje: \n
     \n
     ${data.text}
