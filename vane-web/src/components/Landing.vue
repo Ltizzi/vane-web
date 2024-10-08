@@ -16,18 +16,21 @@
       <h1
         class="text-white font-perandory text-4xl mx-auto w-full lg:text-6xl 2xl:text-8xl lg:w-2/3"
       >
-        Lic. Vanesa Carlotto Miranda
+        {{ $t("landing.title") }}
+        <!-- Lic. Vanesa Carlotto Miranda -->
       </h1>
       <h1
         class="text-white italic font-perandory text-3xl ml-32 -mt-5 text-center w-full lg:text-5xl"
       >
-        Psicóloga
+        {{ $t("landing.subtitle") }}
+        <!-- Psicóloga -->
       </h1>
       <button
         class="btn btn-accent text-white w-24 mx-auto rounded-none border-4 border-accent border-transparent font-playfair text-lg"
         @click="scrollToContact"
       >
-        Contacto
+        {{ $t("landing.btn") }}
+        <!-- Contacto -->
       </button>
     </div>
   </div>

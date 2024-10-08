@@ -1,6 +1,9 @@
 import { createApp } from "vue";
 import "./style.css";
 import App from "./App.vue";
+import { createI18n } from "vue-i18n";
+import ES from "./locale/es.json";
+import EN from "./locale/en.json";
 
 /* import the fontawesome core */
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -38,6 +41,28 @@ const app = createApp(App);
 
 export const API_URL = "https://vane-web.onrender.com"; //"http://localhost:8000";
 
+export const i18n = createI18n({
+  locale: "es",
+  fallbackLocale: "en",
+  messages: {
+    es: ES,
+    en: EN,
+  },
+});
+
 app.component("font-awesome-icon", FontAwesomeIcon);
 app.use(router);
+app.use(i18n);
 app.mount("#app");
+
+function settingLang() {
+  const lang = window.navigator.language.split("-");
+  console.log(lang);
+  if (lang[0].toLowerCase() != "es" || lang[0].toLowerCase() != "en") {
+    i18n.global.locale.value = "en";
+  } else {
+    i18n.global.locale.value = lang[0];
+  }
+}
+
+settingLang();

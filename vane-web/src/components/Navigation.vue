@@ -7,7 +7,8 @@
           <button
             class="btn btn-accent text-white align-middle font-playfair capitalize text-2xl hover:bg-secondary-content rounded-none border-4 border-accent border-transparent hover:border-secondary-content"
           >
-            Sobre mí
+            {{ $t("landing.navigation.btn_about") }}
+            <!-- Sobre mí -->
           </button>
         </router-link>
       </div>
@@ -18,7 +19,8 @@
           <button
             class="btn btn-accent text-white align-middle font-playfair capitalize text-2xl hover:bg-secondary-content rounded-none border-4 border-accent border-transparent hover:border-secondary-content"
           >
-            Terapias
+            {{ $t("landing.navigation.btn_terapies") }}
+            <!-- Terapias -->
           </button>
         </router-link>
       </div>
@@ -29,7 +31,8 @@
           class="btn btn-accent text-white align-middle font-playfair capitalize text-2xl hover:bg-secondary-content rounded-none border-4 border-accent border-transparent hover:border-secondary-content"
           @click="goTo('faq')"
         >
-          Preguntas frecuentes
+          {{ $t("landing.navigation.btn_faq") }}
+          <!-- Preguntas frecuentes -->
         </button>
       </div>
     </div>
@@ -38,7 +41,8 @@
     <h1
       class="text-stone-800 text-7xl font-yesteryear italic mx-auto my-96 flex flex-row align-middle"
     >
-      "Porque conectarnos más allá de la distancia es posible"
+      "{{ $t("landing.phrase") }}"
+      <!-- "Porque conectarnos más allá de la distancia es posible" -->
     </h1>
   </div>
 </template>

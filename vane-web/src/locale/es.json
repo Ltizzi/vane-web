@@ -1,0 +1,109 @@
+{
+  "navbar": {
+    "title": "Vanesa Carlotto Miranda",
+    "btn_info": "Más información",
+    "info": {
+      "about": "Sobre mí",
+      "terapies": "Terapias",
+      "faq": "Preguntas Frecuentes"
+    },
+    "contact": "Contacto"
+  },
+  "landing": {
+    "title": "Lic. Vanesa Carlotto Miranda",
+    "subtitle": "Psicóloga",
+    "btn": "Contacto",
+    "navigation": {
+      "btn_about": "Sobre mí",
+      "btn_terapies": "Terapias",
+      "btn_faq": "Preguntas Frecuentes"
+    },
+    "phrase": "Porque conectarnos más allá de la distancia es posible"
+  },
+  "contact": {
+    "form": {
+      "name": "Nombre",
+      "phone": "Teléfono",
+      "mail": "E-mail",
+      "title": "Tema",
+      "message": "Mensaje",
+      "btn_send": "Enviar"
+    },
+    "side": {
+      "title": "Contacto",
+      "subtitle": "Reserva tu sesión"
+    }
+  },
+  "footer": {
+    "menu_items": {
+      "home": "Inicio",
+      "about": "Sobre mí",
+      "terapies": "Terapias",
+      "faq": "Preguntas Frecuentes",
+      "contact": "Contacto"
+    }
+  },
+  "about": {
+    "first": "Soy Vanesa Carlotto Miranda, Licenciada en Psicología de la Facultad de Ciencias Empresariales y Sociales (UCES), MN.56669 MP.74831. Profesora en Educación Especial con Orientación en Discapacidad Mental en el Instituto Superior del Profesorado en Educación Especial (Ispee). Especialista en Psicología Clínica con Niños y Adolescentes de la Universidad de Buenos Aires (UBA).",
+    "second": "Cuento con más de una década de experiencia en el ámbito de la salud mental, brindando atención a personas de todas las edades que atraviesan dificultades emocionales y psicológicas. En mi práctica profesional busco crear un espacio seguro y confidencial donde mis pacientes puedan explorar sus pensamientos, sentimientos y experiencias trabajando desarrollando juntos estrategias efectivas para afrontar los desafíos que enfrentan.",
+    "third": "Creo en la capacidad de cada persona para crecer y mejorar su calidad de vida. Mi compromiso es acompañar a mis pacientes en este proceso, brindándoles las herramientas y el apoyo necesarios para alcanzar su bienestar emocional."
+  },
+  "terapies": {
+    "first": {
+      "title": "Terapia individual Adultos",
+      "text": "Trabajo con cada paciente adulto la problemática actual que presenta teniendo en cuenta el contexto y su historia. El tratamiento se orienta a la toma de decisiones buscando con el paciente adulto la resolución de conflictos comprendiendo para ello los motivos que sostienen su padecer."
+    },
+    "second": {
+      "title": "Terapia individual Adolescentes",
+      "text": "Acompaño a los adolescentes a superar sus dificultades emocionales, comportamentales y sociales. Se busca desarrollar las habilidades necesarias para afrontar los retos de esta etapa de la vida hacia el tránsito hacia la adultez. Los adolescentes que reciben tratamiento pueden mejorar su estado de ánimo, desarrollar habilidades de afrontamiento y mejorar sus relaciones con otras personas."
+    },
+    "third": {
+      "title": "Orientación psicológica a familiares que acompañan a personas con discapacidad",
+      "text": "Los años de trayectoria en el tratamiento a personas con discapacidad me permite proporcionar apoyo emocional, orientación y estrategias para ayudar a los familiares a enfrentar los desafíos asociados. Es así que acompaño a las familias a:",
+      "list": {
+        "a": "Procesar sus emociones relacionadas con la discapacidad de su ser querido, como la tristeza, la frustración o la preocupación.",
+        "b": "Informar a los familiares sobre la discapacidad en cuestión, sus implicaciones y cómo pueden apoyar mejor a su familiar.",
+        "c": "Enseñar técnicas para manejar el estrés, la ansiedad y las demandas adicionales que pueden surgir debido a la discapacidad.",
+        "d": "Facilitar la comunicación efectiva entre los miembros de la familia y ayudar a resolver conflictos que puedan surgir en relación con la discapacidad.",
+        "e": "Conectar a los familiares con otros profesionales, servicios o recursos que puedan beneficiar tanto al miembro de la familia con discapacidad como a los cuidadores.",
+        "f": "Ayudar a las familias a planificar para el futuro, incluyendo decisiones sobre cuidado a largo plazo, educación y apoyo continuo."
+      }
+    },
+    "fourth": {
+      "title": "Supervisión a profesionales que trabajan con personas con discapacidad",
+      "text": "Abordo aspectos técnicos, habilidades y recursos de los profesionales (psicólogo, acompañante terapéutico, docente, entre otros) para aumentar la eficacia en la evaluación e intervención que realizan en su labor profesional. Implica varios aspectos clave:",
+      "list": {
+        "a": "Técnicas de comunicación efectiva y adaptativa.",
+        "b": "Entrenamiento en métodos de intervención y apoyo personalizado. Capacitación en el uso de adecuaciones de acceso y de aprendizaje.",
+        "c": "Enseñanza de estrategias para fomentar la autonomía y la inclusión social pensando en resolver las barreras para la inclusión.",
+        "d": "Apoyo emocional y estrategias para manejar el estrés y la fatiga profesional.",
+        "e": "Adaptación de estrategias según las necesidades individuales de cada persona con discapacidad, fomentando la flexibilidad para ajustar métodos de trabajo según el progreso y cambios en las condiciones de las personas.",
+        "f": "En síntesis, acompaño a que los profesionales que trabajan con personas con discapacidad puedan ofrecer un apoyo integral y de calidad, promoviendo su bienestar y desarrollo máximo."
+      }
+    }
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "first": {
+      "question": "¿En qué ayuda la terapia psicológica?",
+      "text": "Contribuye a mejorar la salud mental y el bienestar emocional. A través del proceso terapéutico, ayudaré a que las personas puedan abordar y superar una variedad de desafíos emocionales y psicológicos. Te acompaño en:",
+      "a": "El camino del autoconocimiento y crecimiento personal, brindando un espacio seguro y confidencial para explorar tus pensamientos, emociones y comportamientos. Este autoconocimiento puede llevar a un mayor entendimiento de ti mismo y promover el crecimiento personal.",
+      "b": "Manejar el estrés y la ansiedad, mediante técnicas terapéuticas para identificar y gestionar las fuentes de estrés y ansiedad en tu vida, enseñándote estrategias efectivas para enfrentarlas y reducir su impacto negativo.",
+      "c": "Mejorar las relaciones personales, enriqueciendo tus habilidades de comunicación y relaciones interpersonales, ayudándote a establecer límites saludables y a resolver conflictos de manera constructiva.",
+      "d": "Sanar heridas emocionales y traumas pasados, proporcionando herramientas para procesar y liberar el dolor emocional.",
+      "e": "Desarrollo de habilidades para la vida,construyendo capacidades prácticas para enfrentar los desafíos diarios, mejorar la toma de decisiones y aumentar tu resiliencia emocional.",
+      "f": "Aumento de la autoestima, al trabajar en tus pensamientos y creencias limitantes, la terapia puede ayudarte a construir una autoimagen más positiva y aumentar tu confianza en ti mismo.",
+      "g": "Apoyo en momentos difíciles, durante transiciones y momentos arduos de la vida, tales como pérdidas, rupturas o cambios significativos.",
+      "h": "En síntesis, invertir en tu salud mental a través de la terapia psicológica no solo mejora tu calidad de vida, sino que también te capacita para enfrentar el futuro con mayor fortaleza y optimismo."
+    },
+    "second": {
+      "question": "¿Por qué elegir tratamiento online?",
+      "text": "Este tipo de terapia ofrece varias ventajas, como mayor accesibilidad para personas en áreas remotas, flexibilidad en horarios de sesión y comodidad al recibir tratamiento desde el hogar. Es posible ofrecer psicoterapia virtual de manera ética y efectiva, adaptando las técnicas y métodos tradicionales al entorno digital para garantizar resultados positivos para mis pacientes. Te invito a descubrir las ventajas de la psicoterapia virtual:",
+      "a": "Acceder a tratamiento desde cualquier ubicación geográfica, incluso áreas remotas donde los servicios presenciales podrían ser limitados.",
+      "b": "Ahorra tiempo y reduce el estrés asociado con el transporte.",
+      "c": "Facilita la programación de sesiones terapéuticas que se ajusten mejor a las agendas ocupadas de hoy en día.",
+      "d": "Es más fácil iniciar el proceso terapéutico desde la comodidad de su hogar, lo que puede reducir la ansiedad inicial asociada con la consulta presencial.",
+      "e": "La psicoterapia virtual no solo mejora la accesibilidad y la flexibilidad del tratamiento psicológico, sino que también puede hacer que la terapia sea más cómoda y menos intimidante para algunas personas, ayudando así a superar barreras tradicionales para acceder a la atención de salud mental."
+    }
+  }
+}

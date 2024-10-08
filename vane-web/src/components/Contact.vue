@@ -3,9 +3,9 @@
     <div
       class="text-white text-6xl py-16 font-perandory font-semibold text-center flex flex-col gap-5 justify-center lg:hidden"
     >
-      <h1>Contacto</h1>
+      <h1>{{ $t("contact.side.title") }}</h1>
       <div class="flex flex-col text-6xl font-perandory">
-        <h3 class="text-2xl italic">Reserva tu sesión</h3>
+        <h3 class="text-2xl italic">{{ $t("contact.side.subtitle") }}</h3>
         <!-- <h3 class="text-2xl italic">haz una consulta</h3> -->
       </div>
     </div>
@@ -139,9 +139,9 @@
     <div
       class="text-orange-50 lg:text-6xl font-perandory font-semibold text-center lg:flex flex-col gap-5 justify-center hidden md:w-1/2"
     >
-      <h1>Contacto</h1>
+      <h1>´{{ $t("contact.side.title") }}</h1>
       <div class="flex flex-col text-6xl">
-        <h3 class="text-2xl italic">Reserva tu sesión</h3>
+        <h3 class="text-2xl italic">{{ $t("contact.side.subtitle") }}</h3>
         <!-- <h3 class="text-2xl italic">haz una consulta</h3> -->
       </div>
     </div>

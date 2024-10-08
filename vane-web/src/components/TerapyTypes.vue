@@ -14,74 +14,48 @@
         <ul class="flex flex-col lg:gap-7 gap-12 text-start">
           <li class="flex flex-col gap-5">
             <h2 class="lg:text-4xl text-2xl font-semibold">
-              Terapia individual Adultos
+              {{ $t("terapies.first.title") }}
             </h2>
             <p class="lg:text-xl text-lg">
-              Trabajo con cada paciente adulto la problemática actual que
-              presenta teniendo en cuenta el contexto y su historia. El
-              tratamiento se orienta a la toma de decisiones buscando con el
-              paciente adulto la resolución de conflictos comprendiendo para
-              ello los motivos que sostienen su padecer.
+              {{ $t("terapies.first.text") }}
             </p>
           </li>
           <li class="flex flex-col gap-5">
             <h2 class="lg:text-4xl text-2xl font-semibold">
-              Terapia individual Adolescentes
+              {{ $t("terapies.second.title") }}
             </h2>
             <p class="lg:text-xl text-lg">
-              Acompaño a los adolescentes a superar sus dificultades
-              emocionales, comportamentales y sociales. Se busca desarrollar las
-              habilidades necesarias para afrontar los retos de esta etapa de la
-              vida hacia el tránsito hacia la adultez. Los adolescentes que
-              reciben tratamiento pueden mejorar su estado de ánimo, desarrollar
-              habilidades de afrontamiento y mejorar sus relaciones con otras
-              personas.
+              {{ $t("terapies.second.text") }}
             </p>
           </li>
           <li class="flex flex-col gap-5">
             <h2 class="lg:text-4xl text-2xl font-semibold">
-              Orientación psicológica a familiares que acompañan a personas con
-              discapacidad
+              {{ $t("terapies.third.title") }}
             </h2>
             <div class="flex flex-col gap-5">
               <p class="lg:text-xl text-lg">
-                Los años de trayectoria en el tratamiento a personas con
-                discapacidad me permite proporcionar apoyo emocional,
-                orientación y estrategias para ayudar a los familiares a
-                enfrentar los desafíos asociados. Es así que acompaño a las
-                familias a:
+                {{ $t("terapies.third.text") }}
               </p>
               <ul
                 class="text-xl lg:gap-5 gap-10 lg:mx-10 lg:ml-7 ml-5 list-disc flex flex-col"
               >
                 <li class="lg:text-xl text-lg">
-                  Procesar sus emociones relacionadas con la discapacidad de su
-                  ser querido, como la tristeza, la frustración o la
-                  preocupación.
+                  {{ $t("terapies.third.list.a") }}
                 </li>
                 <li class="lg:text-xl text-lg">
-                  Informar a los familiares sobre la discapacidad en cuestión,
-                  sus implicaciones y cómo pueden apoyar mejor a su familiar.
+                  {{ $t("terapies.third.list.b") }}
                 </li>
                 <li class="lg:text-xl text-lg">
-                  Enseñar técnicas para manejar el estrés, la ansiedad y las
-                  demandas adicionales que pueden surgir debido a la
-                  discapacidad.
+                  {{ $t("terapies.third.list.c") }}
                 </li>
                 <li class="lg:text-xl text-lg">
-                  Facilitar la comunicación efectiva entre los miembros de la
-                  familia y ayudar a resolver conflictos que puedan surgir en
-                  relación con la discapacidad.
+                  {{ $t("terapies.third.list.d") }}
                 </li>
                 <li class="lg:text-xl text-lg">
-                  Conectar a los familiares con otros profesionales, servicios o
-                  recursos que puedan beneficiar tanto al miembro de la familia
-                  con discapacidad como a los cuidadores.
+                  {{ $t("terapies.third.list.e") }}
                 </li>
                 <li class="lg:text-xl text-lg">
-                  Ayudar a las familias a planificar para el futuro, incluyendo
-                  decisiones sobre cuidado a largo plazo, educación y apoyo
-                  continuo.
+                  {{ $t("terapies.third.list.f") }}
                 </li>
               </ul>
             </div>
