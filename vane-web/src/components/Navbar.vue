@@ -1,6 +1,6 @@
 import i18n from '@/i18n';
 <template lang="">
-  <div class="navbar bg-base-100 z-50">
+  <div class="navbar bg-neutral z-50 text-secondary">
     <div class="flex-1">
       <router-link to="/">
         <a class="btn btn-ghost text-xl hover:cursor-pointer"
@@ -12,8 +12,10 @@ import i18n from '@/i18n';
       <ul class="menu menu-horizontal px-1 z-50">
         <li>
           <details>
-            <summary>{{ $t("navbar.btn_info") }}</summary>
-            <ul class="bg-base-100 rounded-t-none p-2 z-50">
+            <summary>
+              {{ $t("navbar.btn_info") }}
+            </summary>
+            <ul class="bg-neutral rounded-t-none p-2 z-50">
               <li>
                 <router-link to="/about"
                   ><a>{{ $t("navbar.info.about") }}</a></router-link

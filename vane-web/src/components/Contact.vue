@@ -1,7 +1,7 @@
 <template lang="">
-  <div class="bg-stone-600 flex-col lg:flex-row flex w-full lg:h-auto">
+  <div class="bg-primary flex-col lg:flex-row flex w-full lg:h-auto">
     <div
-      class="text-white text-6xl py-16 font-perandory font-semibold text-center flex flex-col gap-5 justify-center lg:hidden"
+      class="text-base-100 text-6xl py-16 font-perandory font-semibold text-center flex flex-col gap-5 justify-center lg:hidden"
     >
       <h1>{{ $t("contact.side.title") }}</h1>
       <div class="flex flex-col text-6xl font-perandory">
@@ -9,16 +9,16 @@
         <!-- <h3 class="text-2xl italic">haz una consulta</h3> -->
       </div>
     </div>
-    <div class="lg:w-1/2 bg-white">
+    <div class="lg:w-1/2 bg-secondary">
       <div
-        class="w-96 py-7 px-5 bg-slate-50-content mx-auto my-20 flex flex-col gap-6 justify-center shadow-2xl shadow-secondary-content"
+        class="w-96 py-7 px-5 bg-primary mx-auto my-20 flex flex-col gap-6 justify-center shadow-2xl shadow-secondary-content"
       >
         <input
           type="text"
           placeholder="Nombre"
           v-model="form.name"
           :class="[
-            'input w-full focus:input-warning max-w-xs rounded-none bg-secondary-content bg-opacity-20 mx-auto text-white font-playfair text-lg placeholder:text-white duration-75 ease-in-out transition-all',
+            'input w-full focus:input-warning max-w-xs rounded-none bg-accent bg-opacity-90  mx-auto text-secondary font-playfair text-lg placeholder:text-secondary duration-75 ease-in-out transition-all',
             errors.name ? 'border-red-700 border-solid border-2' : '',
             form.name && !errors.name
               ? 'border-green-500 border-solid border-2'
@@ -38,7 +38,7 @@
           placeholder="Teléfono"
           v-model="form.phone"
           :class="[
-            'input focus:input-warning rounded-none w-full max-w-xs bg-secondary-content bg-opacity-20 mx-auto text-white font-playfair text-lg placeholder:text-white duration-75 ease-in-out transition-all',
+            'input focus:input-warning rounded-none w-full max-w-xs bg-accent mx-auto text-secondary font-playfair text-lg placeholder:text-secondary duration-75 ease-in-out transition-all',
             errors.phone ? 'border-red-700 border-solid border-2' : '',
             form.phone && !errors.phone
               ? 'border-green-500 border-solid border-2'
@@ -58,7 +58,7 @@
           placeholder="E-mail"
           v-model="form.email"
           :class="[
-            'input focus:input-warning rounded-none w-full max-w-xs bg-secondary-content bg-opacity-20 mx-auto text-white font-playfair text-lg placeholder:text-white duration-75 ease-in-out transition-all',
+            'input focus:input-warning rounded-none w-full max-w-xs bg-accent  mx-auto text-secondary font-playfair text-lg placeholder:text-secondary duration-75 ease-in-out transition-all',
             errors.email ? 'border-red-700 border-solid border-2' : '',
             form.email && !errors.email
               ? 'border-green-500 border-solid border-2'
@@ -78,7 +78,7 @@
           placeholder="Tema"
           v-model="form.subject"
           :class="[
-            'input focus:input-warning rounded-none w-full max-w-xs bg-secondary-content bg-opacity-20 mx-auto text-white font-playfair text-lg placeholder:text-white duration-75 ease-in-out transition-all',
+            'input focus:input-warning rounded-none w-full max-w-xs bg-accent  mx-auto text-secondary font-playfair text-lg placeholder:text-secondary duration-75 ease-in-out transition-all',
             errors.subject ? 'border-red-700 border-solid border-2' : '',
             form.subject && !errors.subject
               ? 'border-green-500 border-solid border-2'
@@ -95,7 +95,7 @@
 
         <textarea
           :class="[
-            'textarea focus:textarea-warning rounded-none bg-secondary-content bg-opacity-30 mx-2 text-white font-playfair text-lg placeholder:text-white duration-75 ease-in-out transition-all',
+            'textarea focus:textarea-warning rounded-none bg-accent  mx-2 text-secondary font-playfair text-lg placeholder:text-secondary duration-75 ease-in-out transition-all',
             errors.text ? 'border-red-700 border-solid border-2' : '',
             form.text && !errors.text
               ? 'border-green-500 border-solid border-2'
@@ -115,7 +115,7 @@
 
         <button
           :class="[
-            'btn btn-accent bg-secondary-content rounded-none text-white mt-2',
+            'btn btn-accent bg-base-100 hover:bg-secondary rounded-none text-white mt-2',
             state.error ? 'bg-error' : '',
             state.success ? 'bg-success' : '',
           ]"
@@ -137,7 +137,7 @@
     </div>
 
     <div
-      class="text-orange-50 lg:text-6xl font-perandory font-semibold text-center lg:flex flex-col gap-5 justify-center hidden md:w-1/2"
+      class="text-base-100 lg:text-6xl font-perandory font-semibold text-center lg:flex flex-col gap-5 justify-center hidden md:w-1/2"
     >
       <h1>{{ $t("contact.side.title") }}</h1>
       <div class="flex flex-col text-6xl">

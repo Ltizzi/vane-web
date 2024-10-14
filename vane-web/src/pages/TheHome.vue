@@ -1,5 +1,5 @@
 <template lang="">
-  <div class="w-auto overflow-x-hidden">
+  <div class="w-auto overflow-x-hidden bg-neutral">
     <Navbar></Navbar>
     <Landing @scroll="scroll"></Landing>
     <!-- <TerapyTypesRedux></TerapyTypesRedux> -->

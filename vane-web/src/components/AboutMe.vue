@@ -1,11 +1,11 @@
 <template lang="">
   <Navbar />
   <div
-    class="flex flex-col gap-7 font-playfair lg:h-auto 2xl:h-auto pt-0 lg:text-xl text-lg relative 2xl:my-40"
+    class="flex flex-col gap-7 font-playfair lg:h-auto 2xl:h-auto pt-0 lg:text-xl text-lg relative 2xl:my-40 text-base-100"
   >
     <img
       :src="bg"
-      class="absolute opacity-15 top-0 lg:h-auto 2xl:h-auto 2xl:-top-60 2xl:object-fill h-full lg:w-full object-cover lg:object-contain -z-50"
+      class="absolute opacity-20 top-0 lg:h-auto 2xl:h-auto 2xl:-top-60 2xl:object-fill h-full lg:w-full object-cover lg:object-contain -z-10"
       alt=""
     />
     <!-- <img
@@ -30,23 +30,10 @@
         <div class="flex flex-col gap-5">
           <p class="mt-10">
             {{ $t("about.first") }}
-            <!-- Soy Vanesa Carlotto Miranda, Licenciada en Psicología de la Facultad
-            de Ciencias Empresariales y Sociales (UCES), MN.56669 MP.74831.
-            Profesora en Educación Especial con Orientación en Discapacidad
-            Mental en el Instituto Superior del Profesorado en Educación
-            Especial (Ispee). Especialista en Psicología Clínica con Niños y
-            Adolescentes de la Universidad de Buenos Aires (UBA). -->
           </p>
 
           <p class="hidden lg:flex">
             {{ $t("about.second") }}
-            <!-- Cuento con más de una década de experiencia en el ámbito de la salud
-            mental, brindando atención a personas de todas las edades que
-            atraviesan dificultades emocionales y psicológicas. En mi práctica
-            profesional busco crear un espacio seguro y confidencial donde mis
-            pacientes puedan explorar sus pensamientos, sentimientos y
-            experiencias trabajando desarrollando juntos estrategias efectivas
-            para afrontar los desafíos que enfrentan. -->
           </p>
         </div>
 
@@ -61,19 +48,9 @@
 
       <p class="lg:hidden">
         {{ $t("about.second") }}
-        <!-- Cuento con más de una década de experiencia en el ámbito de la salud
-        mental, brindando atención a personas de todas las edades que atraviesan
-        dificultades emocionales y psicológicas. En mi práctica profesional
-        busco crear un espacio seguro y confidencial donde mis pacientes puedan
-        explorar sus pensamientos, sentimientos y experiencias desarrollando
-        juntos estrategias efectivas para afrontar los desafíos que enfrentan. -->
       </p>
       <p>
         {{ $t("about.third") }}
-        <!-- Creo en la capacidad de cada persona para crecer y mejorar su calidad de
-        vida. Mi compromiso es acompañar a mis pacientes en este proceso,
-        brindándoles las herramientas y el apoyo necesarios para alcanzar su
-        bienestar emocional. -->
       </p>
     </div>
 

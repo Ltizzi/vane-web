@@ -26,7 +26,7 @@
         <!-- Psicóloga -->
       </h1>
       <button
-        class="btn btn-accent text-white w-24 mx-auto rounded-none border-4 border-accent border-transparent font-playfair text-lg"
+        class="btn bg-orange-400 bg-opacity-80 hover:bg-orange-950 hover:border-orange-950 text-neutral w-24 mx-auto rounded-none border-4 border-accent border-transparent font-playfair text-lg"
         @click="scrollToContact"
       >
         {{ $t("landing.btn") }}

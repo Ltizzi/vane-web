@@ -15,6 +15,16 @@ export default {
 
   plugins: [require("daisyui")],
   daisyui: {
-    themes: ["autumn"],
+    themes: [
+      {
+        vaneweb: {
+          primary: "#C7C2C6",
+          secondary: "#747685",
+          accent: "#EAE0DE",
+          neutral: "#FDFDFD",
+          "base-100": "#0E0E16",
+        },
+      },
+    ],
   },
 };
