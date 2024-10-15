@@ -1,5 +1,5 @@
 <template lang="">
-  <Navbar />
+  <Navbar :load="isLoaded" />
 
   <Contact />
   <Footer />
@@ -10,4 +10,11 @@
   import WhatsappBtn from "../components/WhatsappBtn.vue";
   import Footer from "../components/Footer.vue";
   import Navbar from "../components/Navbar.vue";
+  import { onMounted, ref } from "vue";
+
+  const isLoaded = ref(false);
+
+  onMounted(() => {
+    isLoaded.value = true;
+  });
 </script>

@@ -1,5 +1,5 @@
 <template lang="">
-  <Navbar />
+  <Navbar :load="isLoaded" />
 
   <div class="relative font-poppins text-base-100">
     <img
@@ -82,7 +82,7 @@
   </div>
 </template>
 <script setup>
-  import { ref } from "vue";
+  import { ref, onMounted } from "vue";
   import bgFAQ from "../assets/landing.png";
   import Contact from "./Contact.vue";
   import Footer from "./Footer.vue";
@@ -90,4 +90,10 @@
   import Navbar from "./Navbar.vue";
 
   const bg_photo = ref(bgFAQ);
+
+  const isLoaded = ref(false);
+
+  onMounted(() => {
+    isLoaded.value = true;
+  });
 </script>

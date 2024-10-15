@@ -1,5 +1,5 @@
 <template lang="">
-  <Navbar />
+  <Navbar :load="isLoaded" />
 
   <div class="relative lg:pb-40 bg-neutral text-base-100">
     <img
@@ -62,75 +62,37 @@
           </li>
           <li class="flex flex-col gap-5">
             <h2 class="lg:text-4xl text-2xl font-semibold">
-              Supervisión a profesionales que trabajan con personas con
-              discapacidad
+              {{ $t("terapies.fourth.title") }}
             </h2>
             <p class="lg:text-xl text-lg text-justify">
-              <!-- Abordo aspectos técnicos, habilidades y recursos de los
-              profesionales (psicólogo, acompañante terapéutico, docente, entre
-              otros) para aumentar la eficacia en la evaluación e intervención
-              que realizan en su labor profesional. implica varios aspectos
-              clave: -->
-              Abordo aspectos técnicos, habilidades y recursos de los
-              profesionales (psicólogo, acompañante terapéutico, docente, entre
-              otros) para aumentar la eficacia en la evaluación e intervención
-              que realizan en su labor profesional. Implica varios aspectos
-              clave:
+              {{ $t("terapies.fourth.text") }}
             </p>
             <ul
               class="flex flex-col gap-3 text-xl lg:mx-10 list-disc lg:ml-7 ml-5 pb-20 lg:pb-0"
             >
               <li class="lg:text-xl text-lg text-justify">
-                Técnicas de comunicación efectiva y adaptativa.
+                {{ $t("terapies.fourth.list.a") }}
               </li>
               <li class="lg:text-xl text-lg text-justify">
-                <!-- Entrenamiento en métodos de intervención y apoyo personalizado.
-                Capacitación en el uso de adecuaciones de acceso y de
-                aprendizaje. Enseñanza de estrategias para fomentar la autonomía
-                y la inclusión social pensando en resolver las barreras para la
-                inclusión. Apoyo emocional y estrategias para manejar el estrés
-                y la fatiga profesional. -->
-                Entrenamiento en métodos de intervención y apoyo personalizado.
-                Capacitación en el uso de adecuaciones de acceso y de
-                aprendizaje.
+                {{ $t("terapies.fourth.list.b") }}
               </li>
               <li class="lg:text-xl text-lg text-justify">
-                Enseñanza de estrategias para fomentar la autonomía y la
-                inclusión social pensando en resolver las barreras para la
-                inclusión.
+                {{ $t("terapies.fourth.list.c") }}
               </li>
               <li class="lg:text-xl text-lg text-justify">
-                Apoyo emocional y estrategias para manejar el estrés y la fatiga
-                profesional.
+                {{ $t("terapies.fourth.list.d") }}
               </li>
 
               <li class="lg:text-xl text-lg text-justify">
-                <!-- Adaptación de estrategias según las necesidades individuales de
-                cada persona con discapacidad, fomentando la flexibilidad para
-                ajustar métodos de trabajo según el progreso y cambios en las
-                condiciones de las personas. -->
-                Adaptación de estrategias según las necesidades individuales de
-                cada persona con discapacidad, fomentando la flexibilidad para
-                ajustar métodos de trabajo según el progreso y cambios en las
-                condiciones de las personas.
+                {{ $t("terapies.fourth.list.e") }}
               </li>
               <li class="lg:text-xl text-lg text-justify">
-                <!-- Acompaño a que los profesionales que trabajan con personas con
-                discapacidad puedan ofrecer un apoyo integral y de calidad,
-                promoviendo su bienestar y desarrollo máximo. -->
-                En síntesis, acompaño a que los profesionales que trabajan con
-                personas con discapacidad puedan ofrecer un apoyo integral y de
-                calidad, promoviendo su bienestar y desarrollo máximo.
+                {{ $t("terapies.fourth.list.f") }}
               </li>
             </ul>
           </li>
         </ul>
       </div>
-      <!-- <img
-        :src="border"
-        class="absolute 2xl:-bottom-32 lg:-bottom-20 2xl:size-96 bottom-0 size-64 right-0 rotate-180"
-        alt=""
-      /> -->
     </div>
   </div>
   <div class="lg:mt-0">
@@ -140,7 +102,7 @@
   <WhatsappBtn />
 </template>
 <script setup>
-  import { ref } from "vue";
+  import { ref, onMounted } from "vue";
   import borderImg from "../assets/border-corner.svg";
   import bgImg from "../assets/landing.jpg";
   import Contact from "./Contact.vue";
@@ -150,4 +112,10 @@
 
   const border = ref(borderImg);
   const bg = ref(bgImg);
+
+  const isLoaded = ref(false);
+
+  onMounted(() => {
+    isLoaded.value = true;
+  });
 </script>

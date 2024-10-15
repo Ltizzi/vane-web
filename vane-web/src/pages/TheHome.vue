@@ -1,12 +1,17 @@
 <template lang="">
   <div class="w-auto overflow-x-hidden bg-neutral">
-    <Navbar></Navbar>
-    <Landing @scroll="scroll"></Landing>
+    <Navbar :load="state.nav"></Navbar>
+    <Landing @scroll="scroll" @animLoaded="landingLoaded"></Landing>
     <!-- <TerapyTypesRedux></TerapyTypesRedux> -->
-    <Navigation></Navigation>
-    <WhatsappBtn></WhatsappBtn>
-    <Contact id="contact"> </Contact>
-    <Footer></Footer>
+    <Navigation v-show="state.landing"></Navigation>
+    <WhatsappBtn
+      :class="[
+        state.nav ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-48',
+        'transition-all ease-in-out duration-300',
+      ]"
+    ></WhatsappBtn>
+    <Contact id="contact" v-show="state.landing"> </Contact>
+    <Footer v-show="state.landing"></Footer>
   </div>
 </template>
 <script setup>
@@ -17,8 +22,13 @@
   import Contact from "../components/Contact.vue";
   import Footer from "../components/Footer.vue";
   import Navbar from "../components/Navbar.vue";
-  import { onBeforeMount } from "vue";
+  import { onBeforeMount, reactive } from "vue";
   import { API_URL } from "../main";
+
+  const state = reactive({
+    landing: false,
+    nav: false,
+  });
 
   function scroll() {
     const contact = document.getElementById("contact");
@@ -26,6 +36,13 @@
       console.log(contact, "asdasd");
       contact.scrollIntoView({ behavior: "smooth" });
     }
+  }
+
+  function landingLoaded() {
+    state.landing = true;
+    setTimeout(() => {
+      state.nav = true;
+    }, 900);
   }
 
   onBeforeMount(async () => {

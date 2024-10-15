@@ -14,19 +14,35 @@
       class="bg-black bg-opacity-50 w-full text-center h-full flex flex-col justify-center gap-5"
     >
       <h1
-        class="text-white font-perandory text-4xl mx-auto w-full lg:text-6xl 2xl:text-8xl lg:w-2/3"
+        :class="[
+          state.first
+            ? 'translate-x-0 opacity-100'
+            : '-translate-x-3/4 opacity-0',
+          'text-white font-perandory text-4xl mx-auto w-full lg:text-6xl 2xl:text-8xl lg:w-2/3 transition-all  ease-in-out',
+          `duration-500`,
+        ]"
       >
         {{ $t("landing.title") }}
         <!-- Lic. Vanesa Carlotto Miranda -->
       </h1>
       <h1
-        class="text-white italic font-perandory text-3xl ml-32 -mt-5 text-center w-full lg:text-5xl"
+        :class="[
+          state.second
+            ? 'translate-y-0 opacity-100'
+            : 'translate-y-40 opacity-0',
+          'text-white italic font-perandory text-3xl ml-32 -mt-5 text-center w-full lg:text-5xl transition-all  ease-in-out',
+          `duration-700`,
+        ]"
       >
         {{ $t("landing.subtitle") }}
         <!-- Psicóloga -->
       </h1>
       <button
-        class="btn bg-orange-400 bg-opacity-80 hover:bg-orange-950 hover:border-orange-950 text-neutral w-24 mx-auto rounded-none border-4 border-accent border-transparent font-playfair text-lg"
+        :class="[
+          state.third ? 'opacity-100' : 'opacity-0',
+          'btn bg-orange-400 bg-opacity-80 hover:bg-orange-950 hover:border-orange-950 text-neutral w-24 mx-auto rounded-none border-4 border-accent border-transparent font-playfair text-lg transition-all  ease-in-out',
+          `duration-700`,
+        ]"
         @click="scrollToContact"
       >
         {{ $t("landing.btn") }}
@@ -37,13 +53,48 @@
 </template>
 <script setup>
   import roomPhotoSRC from "../assets/landing.png";
-  import { ref } from "vue";
+  import { onMounted, ref, reactive, onBeforeMount } from "vue";
 
   const roomPhoto = ref(roomPhotoSRC);
 
-  const emit = defineEmits(["scroll"]);
+  const state = reactive({
+    imgLoaded: false,
+    first: false,
+    second: false,
+    third: false,
+    duration: 0,
+  });
+
+  const emit = defineEmits(["scroll", "animLoaded"]);
 
   function scrollToContact() {
     emit("scroll");
   }
+
+  function playAnim(anim, duration) {
+    state.duration = duration;
+    switch (anim) {
+      case "first":
+        setTimeout(() => {
+          state.first = true;
+        }, duration);
+      case "second":
+        setTimeout(() => {
+          state.second = true;
+        }, duration);
+      case "third":
+        setTimeout(() => {
+          state.third = true;
+          emit("animLoaded");
+        }, duration);
+    }
+  }
+
+  onMounted(() => {
+    setTimeout(() => {
+      playAnim("first", 200);
+      if (state.first) playAnim("second", 300);
+      if (state.second) playAnim("third", 400);
+    }, 1000);
+  });
 </script>

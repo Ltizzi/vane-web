@@ -1,5 +1,5 @@
 <template lang="">
-  <Navbar />
+  <Navbar :load="isLoaded" />
   <div
     class="flex flex-col gap-7 font-playfair lg:h-auto 2xl:h-auto pt-0 lg:text-xl text-lg relative 2xl:my-40 text-base-100"
   >
@@ -61,7 +61,7 @@
   <WhatsappBtn />
 </template>
 <script setup>
-  import { ref } from "vue";
+  import { ref, onMounted } from "vue";
   import borderImg from "../assets/border-t-alt.svg";
   import Contact from "./Contact.vue";
   import Footer from "./Footer.vue";
@@ -74,4 +74,10 @@
   const bg = ref(bgImg);
 
   const avatar = ref(avatarImg);
+
+  const isLoaded = ref(false);
+
+  onMounted(() => {
+    isLoaded.value = true;
+  });
 </script>

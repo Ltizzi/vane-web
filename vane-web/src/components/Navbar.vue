@@ -1,6 +1,11 @@
-import i18n from '@/i18n';
 <template lang="">
-  <div class="navbar bg-neutral z-50 text-secondary">
+  <div
+    :class="[
+      state.show ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-48',
+
+      'navbar bg-neutral z-50 absolute top-0 text-secondary  transition-all ease-in-out duration-500',
+    ]"
+  >
     <div class="flex-1">
       <router-link to="/">
         <a class="btn btn-ghost text-xl hover:cursor-pointer"
@@ -62,4 +67,38 @@ import i18n from '@/i18n';
     </div>
   </div>
 </template>
-<script setup></script>
+<script setup>
+  import { onMounted, watch } from "vue";
+  import { useRoute } from "vue-router";
+
+  const props = defineProps({ load: Boolean });
+
+  const route = useRoute();
+
+  const state = {
+    show: false,
+  };
+
+  watch(
+    () => props.load,
+    (newValue, oldValue) => {
+      if (newValue) {
+        state.show = true;
+        setTimeout(() => {
+          state.show = false;
+        }, 1000);
+      } // else state.show = false;
+    }
+  );
+  watch(
+    () => route.path,
+    (newValue, oldValue) => {
+      if (newValue != oldValue) {
+        state.show = true;
+        setTimeout(() => {
+          state.show = false;
+        }, 1000);
+      }
+    }
+  );
+</script>
