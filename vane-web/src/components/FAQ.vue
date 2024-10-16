@@ -1,11 +1,11 @@
 <template lang="">
   <Navbar :load="isLoaded" />
 
-  <div class="relative font-poppins text-base-100">
+  <div class="relative font-poppins text-base-100 mt-12">
     <img
       :src="bgFAQ"
       alt=""
-      class="lg:h-auto hidden lg:flex lg:w-screen lg:object-fill 2xl:object-cover 2xl:h-full -z-10 absolute top-0 opacity-10"
+      class="lg:h-auto h-full lg:flex lg:w-screen lg:object-fill 2xl:object-cover 2xl:h-full -z-10 absolute top-0 opacity-10"
     />
     <div
       class="flex flex-col justify-start gap-5 lg:mx-20 mx-10 bg-base text-start"

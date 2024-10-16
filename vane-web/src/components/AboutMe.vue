@@ -1,7 +1,7 @@
 <template lang="">
   <Navbar :load="isLoaded" />
   <div
-    class="flex flex-col gap-7 font-playfair lg:h-auto 2xl:h-auto pt-0 lg:text-xl text-lg relative 2xl:my-40 text-base-100"
+    class="flex flex-col gap-7 font-playfair lg:h-auto 2xl:h-auto pt-0 lg:text-xl text-lg relative 2xl:my-40 text-base-100 mt-10"
   >
     <img
       :src="bg"

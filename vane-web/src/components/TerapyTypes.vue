@@ -1,7 +1,9 @@
 <template lang="">
   <Navbar :load="isLoaded" />
 
-  <div class="relative lg:pb-40 bg-neutral text-base-100">
+  <div
+    class="relative lg:pb-40 bg-neutral text-base-100 2xl:mt-16 lg:mt-12 mt-12"
+  >
     <img
       :src="bg"
       class="absolute top-0 opacity-15 h-full lg:h-full lg:w-full object-cover lg:object-cover"
