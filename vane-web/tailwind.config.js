@@ -23,6 +23,8 @@ export default {
           accent: "#EAE0DE",
           neutral: "#FDFDFD",
           "base-100": "#0E0E16",
+          info: "#DBCFB3",
+          error: "#C7B385",
         },
       },
     ],
