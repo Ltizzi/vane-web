@@ -44,9 +44,9 @@
     }
   },
   "about": {
-    "first": "I am Vanesa Carlotto Miranda, a Licensed Psychologist from the Faculty of Business and Social Sciences (UCES), MN.56669 MP.74831. A Special Education Teacher with a focus on Mental Disability at the Higher Institute of Special Education Teaching (Ispee). Specialist in Clinical Psychology with Children and Adolescents from the University of Buenos Aires (UBA).",
+    "first": "I am Vanesa Carlotto Miranda, a Licensed Psychologist from Business and Social Sciences University (UCES), MN.56669 MP.74831. A Special Education Teacher with a focus on Mental Disability at the Higher Institute of Special Education Teaching (Ispee). Specialist in Clinical Psychology with Children and Adolescents from the University of Buenos Aires (UBA).",
     "second": "I have over a decade of experience in the field of mental health, providing care to people of all ages who face emotional and psychological challenges. In my professional practice, I seek to create a safe and confidential space where my patients can explore their thoughts, feelings, and experiences, working together to develop effective strategies to overcome the challenges they face.",
-    "third": "I believe in every person's ability to grow and improve their quality of life. My commitment is to accompany my patients in this process, providing them with the tools and support needed to achieve emotional well-being."
+    "third": "I believe in every person's ability to grow and improve their quality of life. My commitment is to accompany my patients in this process, providing them with tools and support needed to achieve emotional well-being."
   },
   "terapies": {
     "first": {
@@ -55,23 +55,23 @@
     },
     "second": {
       "title": "Individual Therapy for Adolescents",
-      "text": "I accompany adolescents in overcoming their emotional, behavioral, and social difficulties. The goal is to develop the necessary skills to face the challenges of this stage of life as they transition into adulthood. Adolescents receiving treatment can improve their mood, develop coping skills, and enhance their relationships with others."
+      "text": "I accompany adolescents in overcoming their emotional, behavioral, and social difficulties. The goal is to develop the necessary skills to face the challenges of this stage of life as a transition into adulthood. Adolescents receiving treatment can improve their mood, develop coping skills, and enhance their relationships with others."
     },
     "third": {
-      "title": "Psychological Guidance for Families Supporting Individuals with Disabilities",
+      "title": "Psychological Guidance for Families which support Individuals with Disabilities",
       "text": "My years of experience in treating individuals with disabilities allow me to provide emotional support, guidance, and strategies to help families face the associated challenges. I support families in:",
       "list": {
         "a": "Processing their emotions related to their loved one's disability, such as sadness, frustration, or concern.",
         "b": "Informing family members about the specific disability, its implications, and how they can best support their loved one.",
         "c": "Teaching techniques to manage stress, anxiety, and additional demands that may arise due to the disability.",
-        "d": "Facilitating effective communication between family members and helping resolve conflicts that may arise in relation to the disability.",
+        "d": "Facilitating effective communication between family members and helping resolve conflicts that may arise.",
         "e": "Connecting families with other professionals, services, or resources that may benefit both the family member with the disability and their caregivers.",
         "f": "Helping families plan for the future, including decisions about long-term care, education, and ongoing support."
       }
     },
     "fourth": {
       "title": "Supervision for Professionals Working with Individuals with Disabilities",
-      "text": "I address the technical aspects, skills, and resources of professionals (psychologists, therapeutic companions, teachers, etc.) to increase their effectiveness in the assessment and intervention they perform in their professional work. It involves several key aspects:",
+      "text": "I deal with technical aspects, skills, and resources of professionals (psychologists, therapeutic companions, teachers, etc.) to increase their effectiveness in the assessment and intervention they perform. It involves several key aspects:",
       "list": {
         "a": "Effective and adaptive communication techniques.",
         "b": "Training in intervention methods and personalized support. Training in the use of access and learning accommodations.",
@@ -99,7 +99,7 @@
     "second": {
       "question": "Why choose online therapy?",
       "text": "This type of therapy offers several advantages, such as greater accessibility for people in remote areas, flexible session schedules, and the comfort of receiving treatment from home. Virtual psychotherapy can be provided ethically and effectively, adapting traditional techniques and methods to the digital environment to ensure positive results for my patients. I invite you to discover the benefits of virtual psychotherapy:",
-      "a": "Access treatment from any geographic location, even remote areas where in-person services may be limited.",
+      "a": "Access treatment from any geographic location, even remote areas where services may be limited.",
       "b": "Save time and reduce stress associated with commuting.",
       "c": "Facilitates the scheduling of therapy sessions that better fit today's busy schedules.",
       "d": "It’s easier to start the therapeutic process from the comfort of your home, which can reduce the initial anxiety associated with in-person consultations.",

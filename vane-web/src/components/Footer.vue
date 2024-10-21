@@ -8,21 +8,25 @@
       >
         <h6 class="footer-title">Links</h6>
         <router-link to="/">
-          <a class="link link-hover">Inicio</a>
+          <a class="link link-hover">{{ $t("footer.menu_items.home") }}</a>
         </router-link>
         <router-link to="/about">
-          <a class="link link-hover">Sobre mí</a></router-link
+          <a class="link link-hover">{{
+            $t("footer.menu_items.about")
+          }}</a></router-link
         >
 
         <router-link to="/info">
-          <a class="link link-hover">Terapias</a></router-link
+          <a class="link link-hover">{{
+            $t("footer.menu_items.terapies")
+          }}</a></router-link
         >
 
         <router-link to="/faq">
-          <a class="link link-hover">Preguntas Frecuentes</a>
+          <a class="link link-hover">{{ $t("footer.menu_items.faq") }}</a>
         </router-link>
         <router-link to="/contact">
-          <a class="link link-hover">Contacto</a>
+          <a class="link link-hover">{{ $t("footer.menu_items.contact") }}</a>
         </router-link>
       </nav>
       <nav

@@ -40,7 +40,7 @@
       <button
         :class="[
           state.third ? 'opacity-100' : 'opacity-0',
-          'btn bg-info bg-opacity-70 text-neutral w-24 mx-auto rounded-none border-4 border-accent border-transparent font-playfair text-lg transition-all  ease-in-out',
+          'btn bg-info bg-opacity-90 text-base-100 w-24 mx-auto rounded-none border-4 border-accent border-transparent font-playfair text-lg transition-all  ease-in-out',
           `duration-700`,
         ]"
         @click="scrollToContact"

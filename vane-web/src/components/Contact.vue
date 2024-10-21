@@ -15,7 +15,7 @@
       >
         <input
           type="text"
-          placeholder="Nombre"
+          :placeholder="$t('contact.form.name')"
           v-model="form.name"
           :class="[
             'input w-full focus:input-warning max-w-xs rounded-none bg-accent bg-opacity-90  mx-auto text-secondary font-playfair text-lg placeholder:text-secondary duration-75 ease-in-out transition-all',
@@ -35,7 +35,7 @@
 
         <input
           type="text"
-          placeholder="Teléfono"
+          :placeholder="$t('contact.form.phone')"
           v-model="form.phone"
           :class="[
             'input focus:input-warning rounded-none w-full max-w-xs bg-accent mx-auto text-secondary font-playfair text-lg placeholder:text-secondary duration-75 ease-in-out transition-all',
@@ -55,7 +55,7 @@
 
         <input
           type="text"
-          placeholder="E-mail"
+          :placeholder="$t('contact.form.mail')"
           v-model="form.email"
           :class="[
             'input focus:input-warning rounded-none w-full max-w-xs bg-accent  mx-auto text-secondary font-playfair text-lg placeholder:text-secondary duration-75 ease-in-out transition-all',
@@ -75,7 +75,7 @@
 
         <input
           type="text"
-          placeholder="Tema"
+          :placeholder="$t('contact.form.title')"
           v-model="form.subject"
           :class="[
             'input focus:input-warning rounded-none w-full max-w-xs bg-accent  mx-auto text-secondary font-playfair text-lg placeholder:text-secondary duration-75 ease-in-out transition-all',
@@ -101,7 +101,7 @@
               ? 'border-green-500 border-solid border-2'
               : '',
           ]"
-          placeholder="Mensaje"
+          :placeholder="$t('contact.form.message')"
           v-model="form.text"
           rows="7"
           @blur="validateField('text')"
@@ -122,7 +122,7 @@
           @click="submitForm"
         >
           <p v-if="!state.isWaiting && !state.success && !state.error">
-            Enviar
+            {{ $t("contact.form.btn_send") }}
           </p>
           <span
             class="loading loading-dots loading-md"
