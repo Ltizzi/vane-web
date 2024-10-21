@@ -51,8 +51,14 @@
             <div class="swap-off" @click="$i18n.locale = 'en'">EN</div>
           </label> -->
 
-          <div class="locale-changer">
-            <select v-model="$i18n.locale" class="w-10 max-w-x">
+          <div class="locale-changer -mt-1.5">
+            <select
+              v-model="$i18n.locale"
+              class="select select-primary bg-neutral select-sm text-base-100 w-16 max-w-x"
+            >
+              <option :value="$i18n.locale" disabled selected hidden>
+                {{ $i18n.locale }}
+              </option>
               <option
                 v-for="locale in $i18n.availableLocales"
                 :key="`locale-${locale}`"
