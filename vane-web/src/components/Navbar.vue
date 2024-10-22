@@ -45,12 +45,6 @@
           >
         </li>
         <li>
-          <!-- <label class="swap">
-            <input type="checkbox" />
-            <div class="swap-on" @click="$i18n.locale = 'es'">ES</div>
-            <div class="swap-off" @click="$i18n.locale = 'en'">EN</div>
-          </label> -->
-
           <div class="locale-changer -mt-1.5">
             <select
               v-model="$i18n.locale"
