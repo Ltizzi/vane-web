@@ -14,7 +14,7 @@
       class="w-3/5 h-16 object-cover opacity-35 mx-auto"
     /> -->
     <div
-      class="lg:mx-24 mx-5 px-5 flex flex-col gap-10 py-10 indent-0 leading-10 text-justify font-poppins"
+      class="lg:mx-24 mx-5 px-5 flex flex-col gap-10 py-10 indent-0 leading-10 font-poppins"
     >
       <div
         class="flex flex-col lg:flex-row gap-5 justify-center text-start my-auto"

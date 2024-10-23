@@ -66,29 +66,29 @@
             <h2 class="lg:text-4xl text-2xl font-semibold">
               {{ $t("terapies.fourth.title") }}
             </h2>
-            <p class="lg:text-xl text-lg text-justify">
+            <p class="lg:text-xl text-lg text-start">
               {{ $t("terapies.fourth.text") }}
             </p>
             <ul
               class="flex flex-col gap-3 text-xl lg:mx-10 list-disc lg:ml-7 ml-5 pb-20 lg:pb-0"
             >
-              <li class="lg:text-xl text-lg text-justify">
+              <li class="lg:text-xl text-lg text-start">
                 {{ $t("terapies.fourth.list.a") }}
               </li>
-              <li class="lg:text-xl text-lg text-justify">
+              <li class="lg:text-xl text-lg text-start">
                 {{ $t("terapies.fourth.list.b") }}
               </li>
-              <li class="lg:text-xl text-lg text-justify">
+              <li class="lg:text-xl text-lg text-start">
                 {{ $t("terapies.fourth.list.c") }}
               </li>
-              <li class="lg:text-xl text-lg text-justify">
+              <li class="lg:text-xl text-lg text-start">
                 {{ $t("terapies.fourth.list.d") }}
               </li>
 
-              <li class="lg:text-xl text-lg text-justify">
+              <li class="lg:text-xl text-lg text-start">
                 {{ $t("terapies.fourth.list.e") }}
               </li>
-              <li class="lg:text-xl text-lg text-justify">
+              <li class="lg:text-xl text-lg text-start">
                 {{ $t("terapies.fourth.list.f") }}
               </li>
             </ul>

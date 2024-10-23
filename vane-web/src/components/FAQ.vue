@@ -53,7 +53,7 @@
         {{ $t("faq.second.question") }}
       </h1>
       <div class="lg:text-xl text-lg text-start">
-        <p class="indent-0 text-justify">
+        <p class="indent-0">
           {{ $t("faq.second.text") }}
         </p>
 
