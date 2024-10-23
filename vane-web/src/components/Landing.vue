@@ -1,6 +1,6 @@
 <template lang="">
   <div
-    class="mx-auto w-screen h-screen mt-10 lg:mt-0"
+    class="mx-auto w-screen h-screen mt-0 lg:mt-0"
     :style="{
       backgroundImage: ` url(${roomPhoto})`,
       backgroundSize: 'cover',
