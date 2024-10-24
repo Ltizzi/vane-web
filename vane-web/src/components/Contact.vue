@@ -1,5 +1,5 @@
 <template lang="">
-  <div class="bg-primary flex-col lg:flex-row flex w-full lg:h-auto">
+  <div class="bg-primary flex-col lg:flex-row flex w-full lg:h-auto mt-14">
     <div
       class="text-base-100 text-6xl py-16 font-perandory font-semibold text-center flex flex-col gap-5 justify-center lg:hidden"
     >
