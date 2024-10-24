@@ -39,17 +39,23 @@
           <a href="https://wa.me/5491140507052" target="_blank">
             <font-awesome-icon
               :icon="['fab', 'whatsapp']"
-              class="size-7 hover:scale-110 duration-150 transition-all ease-in-out hover:text-accent"
+              class="size-7 hover:scale-110 duration-150 transition-all ease-in-out hover:text-info"
             />
           </a>
-          <font-awesome-icon
-            :icon="['fab', 'instagram']"
-            class="size-7 hover:scale-110 duration-150 transition-all ease-in-out hover:text-accent"
-          />
-          <font-awesome-icon
-            :icon="['fab', 'linkedin']"
-            class="size-7 hover:scale-110 duration-150 transition-all ease-in-out hover:text-accent"
-          />
+          <a href="https://www.instagram.com/lic.vanesacarlottomiranda">
+            <font-awesome-icon
+              :icon="['fab', 'instagram']"
+              class="size-7 hover:scale-110 duration-150 transition-all ease-in-out hover:text-info"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/vanesa-carlotto-miranda-b9063849/"
+          >
+            <font-awesome-icon
+              :icon="['fab', 'linkedin']"
+              class="size-7 hover:scale-110 duration-150 transition-all ease-in-out hover:text-info"
+            />
+          </a>
         </div>
       </nav>
     </footer>
@@ -60,20 +66,20 @@
           <br />
           Web Developer
         </p>
-        <p>Copyright © {{ new Date().getFullYear() }} - All right reserved</p>
+        <p>Copyright © {{ new Date().getFullYear() }} - All rights reserved</p>
       </aside>
       <nav>
         <div class="grid grid-flow-col gap-4 -mt-7">
           <a href="https://github.com/Ltizzi" target="_blank">
             <font-awesome-icon
               :icon="['fab', 'github']"
-              class="size-7 hover:scale-110 duration-150 transition-all ease-in-out hover:text-accent"
+              class="size-7 hover:scale-110 duration-150 transition-all ease-in-out hover:text-info"
             />
           </a>
           <a href="https://www.linkedin.com/in/lterlizzi/" target="_blank">
             <font-awesome-icon
               :icon="['fab', 'linkedin']"
-              class="size-7 hover:scale-110 duration-150 transition-all ease-in-out hover:text-accent"
+              class="size-7 hover:scale-110 duration-150 transition-all ease-in-out hover:text-info"
             />
           </a>
         </div>
