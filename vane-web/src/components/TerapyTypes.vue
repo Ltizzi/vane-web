@@ -2,7 +2,7 @@
   <Navbar :load="isLoaded" />
 
   <div
-    class="relative lg:pb-40 bg-neutral text-base-100 2xl:mt-16 lg:mt-12 mt-12"
+    class="relative lg:pb-40 bg-neutral text-base-100 2xl:mt-16 lg:mt-12 mt-12 caret-transparent"
   >
     <img
       :src="bg"

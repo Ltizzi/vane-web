@@ -1,7 +1,7 @@
 <template lang="">
   <Navbar :load="isLoaded" />
 
-  <div class="relative font-poppins text-base-100 mt-12">
+  <div class="relative font-poppins text-base-100 mt-12 caret-transparent">
     <img
       :src="bgFAQ"
       alt=""

@@ -1,5 +1,7 @@
 <template lang="">
-  <div class="bg-gradient-to-br from-secondary to-60% to-base-100 h-auto">
+  <div
+    class="bg-gradient-to-br from-secondary to-60% to-base-100 h-auto caret-transparent"
+  >
     <footer
       class="footer text-neutral p-10 justify-around items-center flex lg:flex-row flex-col"
     >
