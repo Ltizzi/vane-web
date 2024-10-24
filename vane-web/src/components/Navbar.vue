@@ -3,7 +3,7 @@
     :class="[
       state.show ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-48',
 
-      'navbar bg-neutral z-50 absolute top-0 text-secondary  transition-all ease-in-out duration-500',
+      'navbar caret-transparent bg-neutral z-50 absolute top-0 text-secondary  transition-all ease-in-out duration-500',
     ]"
   >
     <div class="flex-1">
