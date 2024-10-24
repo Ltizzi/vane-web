@@ -1,7 +1,7 @@
 <template lang="">
-  <div class="bg-primary flex-col lg:flex-row flex w-full lg:h-auto mt-14">
+  <div class="bg-primary flex-col lg:flex-row flex w-full lg:h-auto">
     <div
-      class="text-base-100 text-6xl py-16 font-perandory font-semibold text-center flex flex-col gap-5 justify-center lg:hidden"
+      class="text-base-100 text-6xl py-16 font-perandory font-semibold text-center flex flex-col gap-5 justify-center lg:hidden mt-14"
     >
       <h1>{{ $t("contact.side.title") }}</h1>
       <div class="flex flex-col text-6xl font-perandory">
@@ -11,7 +11,7 @@
     </div>
     <div class="lg:w-1/2 bg-secondary">
       <div
-        class="w-96 py-7 px-5 bg-primary mx-auto my-20 flex flex-col gap-6 justify-center shadow-2xl shadow-secondary-content"
+        class="w-96 py-7 px-5 bg-primary mx-auto my-20 flex flex-col gap-6 justify-center shadow-2xl shadow-secondary-content caret-base-100"
       >
         <input
           type="text"

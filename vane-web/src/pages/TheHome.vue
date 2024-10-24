@@ -1,5 +1,5 @@
 <template lang="">
-  <div class="w-auto overflow-x-hidden bg-neutral">
+  <div class="w-auto overflow-x-hidden bg-neutral caret-transparent">
     <Navbar :load="state.nav"></Navbar>
     <Landing @scroll="scroll" @animLoaded="landingLoaded"></Landing>
     <!-- <TerapyTypesRedux></TerapyTypesRedux> -->
