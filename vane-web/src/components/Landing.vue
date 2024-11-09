@@ -18,7 +18,7 @@
           state.first
             ? 'translate-x-0 opacity-85'
             : '-translate-x-3/4 opacity-0',
-          'text-white font-perandory text-4xl mx-auto w-full lg:text-6xl 2xl:text-8xl lg:w-2/3 transition-all  ease-in-out mt-10',
+          'text-white font-perandory text-4xl mx-auto w-full lg:text-6xl 2xl:text-8xl lg:w-2/3 transition-all  ease-in-out mt-10 -tracking-wide',
           `duration-500`,
         ]"
       >

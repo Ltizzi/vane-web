@@ -12,10 +12,10 @@
     <div
       class="flex flex-col gap-10 justify-start font-poppins lg:mx-20 pt-10 relative"
     >
-      <div class="lg:mx-24 mx-10 mt-2">
-        <ul class="flex flex-col lg:gap-7 gap-12 text-start">
+      <div class="lg:mx-24 mx-10 mt-2 leading-relaxed">
+        <ul class="flex flex-col lg:gap-12 gap-12 text-start">
           <li class="flex flex-col gap-5">
-            <h2 class="lg:text-4xl text-2xl font-semibold opacity-80">
+            <h2 class="lg:text-4xl text-2xl font-semibold opacity-80 mt-2">
               {{ $t("terapies.first.title") }}
             </h2>
             <p class="lg:text-xl text-lg opacity-75">

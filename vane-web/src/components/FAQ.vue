@@ -8,10 +8,10 @@
       class="lg:h-auto h-full lg:flex lg:w-screen lg:object-fill 2xl:object-cover 2xl:h-full -z-10 absolute top-0 opacity-10"
     />
     <div
-      class="flex flex-col justify-start gap-5 lg:mx-20 mx-10 bg-base text-start"
+      class="flex flex-col justify-start gap-3 lg:mx-20 mx-10 bg-base text-start leading-relaxed"
     >
       <h1
-        class="text-center font-semibold lg:text-5xl text-3xl py-7 opacity-80"
+        class="text-center font-semibold lg:text-5xl text-3xl mt-8 mb-4 opacity-80"
       >
         {{ $t("faq.title") }}
       </h1>
@@ -53,7 +53,7 @@
 
       <!-- <div class="divider divider-secondary"></div> -->
 
-      <h1 class="lg:text-3xl text-2xl font-semibold my-3 opacity-70">
+      <h1 class="lg:text-3xl text-2xl font-semibold mb-4 mt-8 opacity-70">
         {{ $t("faq.second.question") }}
       </h1>
       <div class="lg:text-xl text-lg text-start opacity-65">

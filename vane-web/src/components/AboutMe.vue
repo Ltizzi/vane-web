@@ -28,12 +28,15 @@
           </div>
         </div>
         <div class="flex flex-col gap-5 opacity-75">
-          <p class="mt-10">
+          <p class="mt-10 leading-relaxed">
             {{ $t("about.first") }}
           </p>
 
-          <p class="hidden lg:flex">
+          <p class="hidden lg:flex leading-relaxed">
             {{ $t("about.second") }}
+          </p>
+          <p class="leading-relaxed">
+            {{ $t("about.third") }}
           </p>
         </div>
 
@@ -46,10 +49,10 @@
         </div>
       </div>
 
-      <p class="lg:hidden opacity-75">
+      <p class="lg:hidden opacity-75 leading-relaxed">
         {{ $t("about.second") }}
       </p>
-      <p class="opacity-75">
+      <p class="hidden opacity-75 leading-relaxed">
         {{ $t("about.third") }}
       </p>
     </div>
