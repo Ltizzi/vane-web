@@ -16,7 +16,7 @@
       <h1
         :class="[
           state.first
-            ? 'translate-x-0 opacity-100'
+            ? 'translate-x-0 opacity-85'
             : '-translate-x-3/4 opacity-0',
           'text-white font-perandory text-4xl mx-auto w-full lg:text-6xl 2xl:text-8xl lg:w-2/3 transition-all  ease-in-out mt-10',
           `duration-500`,
@@ -28,7 +28,7 @@
       <h1
         :class="[
           state.second
-            ? 'translate-y-0 opacity-100'
+            ? 'translate-y-0 opacity-80'
             : 'translate-y-40 opacity-0',
           'text-white italic font-perandory text-3xl ml-32 -mt-5 text-center w-full lg:text-5xl transition-all  ease-in-out',
           `duration-700`,
@@ -39,8 +39,8 @@
       </h1>
       <button
         :class="[
-          state.third ? 'opacity-100' : 'opacity-0',
-          'btn bg-info bg-opacity-90 text-base-100 w-24 mx-auto rounded-none border-4 border-accent border-transparent font-playfair text-lg transition-all  ease-in-out',
+          state.third ? 'opacity-95' : 'opacity-0',
+          'btn bg-info bg-opacity-90 text-base-100 w-24 mx-auto rounded-none border-4 border-accent hover:text-neutral border-transparent font-playfair text-lg transition-all  ease-in-out',
           `duration-700`,
         ]"
         @click="scrollToContact"

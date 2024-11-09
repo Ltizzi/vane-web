@@ -1,6 +1,6 @@
 <template lang="">
   <div
-    class="animate-bounce transition-all duration-150 bottom-20 fixed right-16 2xl:right-20"
+    class="animate-bounce transition-all duration-150 bottom-20 fixed right-16 2xl:right-20 opacity-85 hover:opacity-100 hover:duration-300"
   >
     <a href="https://wa.me/5491140507052" target="_blank">
       <font-awesome-icon

@@ -39,13 +39,13 @@
           <a href="https://wa.me/5491140507052" target="_blank">
             <font-awesome-icon
               :icon="['fab', 'whatsapp']"
-              class="size-7 hover:scale-110 duration-150 transition-all ease-in-out hover:text-info"
+              class="size-7 hover:scale-110 duration-150 transition-all ease-in-out opacity-65 hover:opacity-100"
             />
           </a>
           <a href="https://www.instagram.com/lic.vanesacarlottomiranda">
             <font-awesome-icon
               :icon="['fab', 'instagram']"
-              class="size-7 hover:scale-110 duration-150 transition-all ease-in-out hover:text-info"
+              class="size-7 hover:scale-110 duration-150 transition-all ease-in-out opacity-65 hover:opacity-100"
             />
           </a>
           <a
@@ -53,7 +53,7 @@
           >
             <font-awesome-icon
               :icon="['fab', 'linkedin']"
-              class="size-7 hover:scale-110 duration-150 transition-all ease-in-out hover:text-info"
+              class="size-7 hover:scale-110 duration-150 transition-all ease-in-out opacity-65 hover:opacity-100"
             />
           </a>
         </div>

@@ -3,9 +3,11 @@
     <div
       class="text-base-100 text-6xl py-16 font-perandory font-semibold text-center flex flex-col gap-5 justify-center lg:hidden mt-14"
     >
-      <h1>{{ $t("contact.side.title") }}</h1>
+      <h1 class="opacity-90">{{ $t("contact.side.title") }}</h1>
       <div class="flex flex-col text-6xl font-perandory">
-        <h3 class="text-2xl italic">{{ $t("contact.side.subtitle") }}</h3>
+        <h3 class="text-2xl italic opacity-80">
+          {{ $t("contact.side.subtitle") }}
+        </h3>
         <!-- <h3 class="text-2xl italic">haz una consulta</h3> -->
       </div>
     </div>
@@ -18,10 +20,12 @@
           :placeholder="$t('contact.form.name')"
           v-model="form.name"
           :class="[
-            'input w-full focus:input-warning max-w-xs rounded-none bg-accent bg-opacity-90  mx-auto text-secondary font-playfair text-lg placeholder:text-secondary duration-75 ease-in-out transition-all',
-            errors.name ? 'border-red-700 border-solid border-2' : '',
+            'input w-full focus:input-warning max-w-xs rounded-none bg-accent bg-opacity-90  mx-auto text-secondary font-playfair text-lg placeholder:text-secondary duration-75 ease-in-out transition-all opacity-80 focus:opacity-100',
+            errors.name
+              ? 'border-red-700  border-opacity-80 border-solid border-2'
+              : '',
             form.name && !errors.name
-              ? 'border-green-500 border-solid border-2'
+              ? 'border-green-500 border-solid border-2  border-opacity-80'
               : '',
           ]"
           @blur="validateField('name')"
@@ -38,10 +42,12 @@
           :placeholder="$t('contact.form.phone')"
           v-model="form.phone"
           :class="[
-            'input focus:input-warning rounded-none w-full max-w-xs bg-accent mx-auto text-secondary font-playfair text-lg placeholder:text-secondary duration-75 ease-in-out transition-all',
-            errors.phone ? 'border-red-700 border-solid border-2' : '',
+            'input focus:input-warning rounded-none w-full max-w-xs bg-accent mx-auto text-secondary font-playfair text-lg placeholder:text-secondary duration-75 ease-in-out transition-all opacity-80 focus:opacity-100',
+            errors.phone
+              ? 'border-red-700  border-opacity-80 border-solid border-2'
+              : '',
             form.phone && !errors.phone
-              ? 'border-green-500 border-solid border-2'
+              ? 'border-green-500 border-solid   border-opacity-80 border-2'
               : '',
           ]"
           @blur="validateField('phone')"
@@ -58,10 +64,12 @@
           :placeholder="$t('contact.form.mail')"
           v-model="form.email"
           :class="[
-            'input focus:input-warning rounded-none w-full max-w-xs bg-accent  mx-auto text-secondary font-playfair text-lg placeholder:text-secondary duration-75 ease-in-out transition-all',
-            errors.email ? 'border-red-700 border-solid border-2' : '',
+            'input focus:input-warning rounded-none w-full max-w-xs bg-accent  mx-auto text-secondary font-playfair text-lg placeholder:text-secondary duration-75 ease-in-out transition-all opacity-80 focus:opacity-100',
+            errors.email
+              ? 'border-red-700  border-opacity-80 border-solid border-2'
+              : '',
             form.email && !errors.email
-              ? 'border-green-500 border-solid border-2'
+              ? 'border-green-500 border-solid  border-opacity-80 border-2'
               : '',
           ]"
           @blur="validateField('email')"
@@ -78,10 +86,12 @@
           :placeholder="$t('contact.form.title')"
           v-model="form.subject"
           :class="[
-            'input focus:input-warning rounded-none w-full max-w-xs bg-accent  mx-auto text-secondary font-playfair text-lg placeholder:text-secondary duration-75 ease-in-out transition-all',
-            errors.subject ? 'border-red-700 border-solid border-2' : '',
+            'input focus:input-warning rounded-none w-full max-w-xs bg-accent  mx-auto text-secondary font-playfair text-lg placeholder:text-secondary duration-75 ease-in-out transition-all opacity-80 focus:opacity-100',
+            errors.subject
+              ? 'border-red-700  border-opacity-80 border-solid border-2'
+              : '',
             form.subject && !errors.subject
-              ? 'border-green-500 border-solid border-2'
+              ? 'border-green-500 border-solid  border-opacity-80 border-2'
               : '',
           ]"
           @blur="validateField('subject')"
@@ -95,10 +105,12 @@
 
         <textarea
           :class="[
-            'textarea focus:textarea-warning rounded-none bg-accent  mx-2 text-secondary font-playfair text-lg placeholder:text-secondary duration-75 ease-in-out transition-all',
-            errors.text ? 'border-red-700 border-solid border-2' : '',
+            'textarea focus:textarea-warning rounded-none bg-accent  mx-2 text-secondary font-playfair text-lg placeholder:text-secondary duration-75 ease-in-out transition-all opacity-80 focus:opacity-100',
+            errors.text
+              ? 'border-red-700  border-opacity-80 border-solid border-2'
+              : '',
             form.text && !errors.text
-              ? 'border-green-500 border-solid border-2'
+              ? 'border-green-500 border-solid  border-opacity-80 border-2'
               : '',
           ]"
           :placeholder="$t('contact.form.message')"
@@ -115,7 +127,7 @@
 
         <button
           :class="[
-            'btn btn-accent bg-base-100 hover:bg-secondary rounded-none text-white mt-2',
+            'btn btn-accent bg-base-100 opacity-90 hover:opacity-100 active:opacity-100 hover:bg-base-300 rounded-none text-white mt-2',
             state.error ? 'bg-error' : '',
             state.success ? 'bg-success' : '',
           ]"
@@ -139,9 +151,11 @@
     <div
       class="text-base-100 lg:text-6xl font-perandory font-semibold text-center lg:flex flex-col gap-5 justify-center hidden md:w-1/2"
     >
-      <h1>{{ $t("contact.side.title") }}</h1>
+      <h1 class="opacity-85">{{ $t("contact.side.title") }}</h1>
       <div class="flex flex-col text-6xl">
-        <h3 class="text-2xl italic">{{ $t("contact.side.subtitle") }}</h3>
+        <h3 class="text-2xl italic opacity-80">
+          {{ $t("contact.side.subtitle") }}
+        </h3>
         <!-- <h3 class="text-2xl italic">haz una consulta</h3> -->
       </div>
     </div>

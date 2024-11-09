@@ -10,17 +10,21 @@
     <div
       class="flex flex-col justify-start gap-5 lg:mx-20 mx-10 bg-base text-start"
     >
-      <h1 class="text-center font-semibold lg:text-5xl text-3xl py-7">
+      <h1
+        class="text-center font-semibold lg:text-5xl text-3xl py-7 opacity-80"
+      >
         {{ $t("faq.title") }}
       </h1>
-      <h1 class="lg:text-3xl text-xl font-semibold">
+      <h1 class="lg:text-3xl text-xl font-semibold opacity-70">
         {{ $t("faq.first.question") }}
       </h1>
-      <p class="lg:text-xl text-lg">
+      <p class="lg:text-xl text-lg opacity-65">
         {{ $t("faq.first.text") }}
       </p>
       <!-- <h1 class="lg:text-2xl text-xl underline">Te acompaño en:</h1> -->
-      <ul class="flex flex-col lg:text-xl text-lg gap-6 mx-0 text-start">
+      <ul
+        class="flex flex-col lg:text-xl text-lg gap-6 mx-0 text-start opacity-65"
+      >
         <li>
           {{ $t("faq.first.a") }}
         </li>
@@ -49,10 +53,10 @@
 
       <!-- <div class="divider divider-secondary"></div> -->
 
-      <h1 class="lg:text-3xl text-2xl font-semibold my-3">
+      <h1 class="lg:text-3xl text-2xl font-semibold my-3 opacity-70">
         {{ $t("faq.second.question") }}
       </h1>
-      <div class="lg:text-xl text-lg text-start">
+      <div class="lg:text-xl text-lg text-start opacity-65">
         <p class="indent-0">
           {{ $t("faq.second.text") }}
         </p>

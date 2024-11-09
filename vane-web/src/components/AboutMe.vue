@@ -5,7 +5,7 @@
   >
     <img
       :src="bg"
-      class="absolute opacity-20 top-0 lg:h-auto 2xl:h-auto 2xl:-top-60 2xl:object-fill h-full lg:w-full object-cover lg:object-contain -z-10"
+      class="absolute opacity-10 top-0 lg:h-auto 2xl:h-auto 2xl:-top-60 2xl:object-fill h-full lg:w-full object-cover lg:object-contain -z-10"
       alt=""
     />
     <!-- <img
@@ -27,7 +27,7 @@
             />
           </div>
         </div>
-        <div class="flex flex-col gap-5">
+        <div class="flex flex-col gap-5 opacity-75">
           <p class="mt-10">
             {{ $t("about.first") }}
           </p>
@@ -46,10 +46,10 @@
         </div>
       </div>
 
-      <p class="lg:hidden">
+      <p class="lg:hidden opacity-75">
         {{ $t("about.second") }}
       </p>
-      <p>
+      <p class="opacity-75">
         {{ $t("about.third") }}
       </p>
     </div>

@@ -6,7 +6,7 @@
   >
     <img
       :src="bg"
-      class="absolute top-0 opacity-15 h-full lg:h-full lg:w-full object-cover lg:object-cover"
+      class="absolute top-0 opacity-10 h-full lg:h-full lg:w-full object-cover lg:object-cover"
       alt=""
     />
     <div
@@ -15,31 +15,31 @@
       <div class="lg:mx-24 mx-10 mt-2">
         <ul class="flex flex-col lg:gap-7 gap-12 text-start">
           <li class="flex flex-col gap-5">
-            <h2 class="lg:text-4xl text-2xl font-semibold">
+            <h2 class="lg:text-4xl text-2xl font-semibold opacity-80">
               {{ $t("terapies.first.title") }}
             </h2>
-            <p class="lg:text-xl text-lg">
+            <p class="lg:text-xl text-lg opacity-75">
               {{ $t("terapies.first.text") }}
             </p>
           </li>
           <li class="flex flex-col gap-5">
-            <h2 class="lg:text-4xl text-2xl font-semibold">
+            <h2 class="lg:text-4xl text-2xl font-semibold opacity-80">
               {{ $t("terapies.second.title") }}
             </h2>
-            <p class="lg:text-xl text-lg">
+            <p class="lg:text-xl text-lg opacity-75">
               {{ $t("terapies.second.text") }}
             </p>
           </li>
           <li class="flex flex-col gap-5">
-            <h2 class="lg:text-4xl text-2xl font-semibold">
+            <h2 class="lg:text-4xl text-2xl font-semibold opacity-80">
               {{ $t("terapies.third.title") }}
             </h2>
             <div class="flex flex-col gap-5">
-              <p class="lg:text-xl text-lg">
+              <p class="lg:text-xl text-lg opacity-75">
                 {{ $t("terapies.third.text") }}
               </p>
               <ul
-                class="text-xl lg:gap-5 gap-10 lg:mx-10 lg:ml-7 ml-5 list-disc flex flex-col"
+                class="text-xl lg:gap-5 gap-10 lg:mx-10 lg:ml-7 ml-5 list-disc flex flex-col opacity-75"
               >
                 <li class="lg:text-xl text-lg">
                   {{ $t("terapies.third.list.a") }}
@@ -62,8 +62,8 @@
               </ul>
             </div>
           </li>
-          <li class="flex flex-col gap-5">
-            <h2 class="lg:text-4xl text-2xl font-semibold">
+          <li class="flex flex-col gap-5 opacity-75">
+            <h2 class="lg:text-4xl text-2xl font-semibold opacity-80">
               {{ $t("terapies.fourth.title") }}
             </h2>
             <p class="lg:text-xl text-lg text-start">
