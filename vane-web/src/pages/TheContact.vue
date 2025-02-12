@@ -16,7 +16,8 @@
   const isLoaded = ref(false);
 
   useHead({
-    title: "Contact",
+    title:
+      "Contact - Psicóloga - Terapia Virtual - Terapia Remota - Psychologist - Virtual terapy - Remote Terapy - Online",
     meta: [
       {
         name: "Contacto - Lic. Vanesa Carlotto Miranda - Psicóloga",

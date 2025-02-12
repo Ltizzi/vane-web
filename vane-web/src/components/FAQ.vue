@@ -99,7 +99,8 @@
   const isLoaded = ref(false);
 
   useHead({
-    title: "Frequently Asked Questions",
+    title:
+      "Frequently Asked Questions - Psicóloga - Terapia Virtual - Terapia Remota - Psychologist - Virtual terapy - Remote Terapy - Online",
     meta: [
       {
         name: "Preguntas Frecuentes - Lic. Vanesa Carlotto Miranda - Psicóloga",

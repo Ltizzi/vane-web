@@ -32,7 +32,8 @@
   });
 
   useHead({
-    title: "Home",
+    title:
+      "Lic. Vanesa Carlotto Miranda - Psicóloga - Terapia Virtual - Terapia Remota - Psychologist - Virtual terapy - Remote Terapy - Online",
     meta: [
       {
         name: "Lic. Vanesa Carlotto Miranda - Psicóloga",

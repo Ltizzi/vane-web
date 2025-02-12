@@ -119,7 +119,8 @@
   const isLoaded = ref(false);
 
   useHead({
-    title: "Information",
+    title:
+      "Information - Psicóloga - Terapia Virtual - Terapia Remota - Psychologist - Virtual terapy - Remote Terapy - Online",
     meta: [
       {
         name: "Información sobre las terapias. Lic. Vanesa Carlotto Miranda - Psicóloga",
