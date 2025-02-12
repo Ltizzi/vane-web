@@ -123,13 +123,13 @@
       "Information - Psicóloga - Terapia Virtual - Terapia Remota - Psychologist - Virtual terapy - Remote Terapy - Online",
     meta: [
       {
-        name: "Información sobre las terapias. Lic. Vanesa Carlotto Miranda - Psicóloga",
+        name: "Información sobre las terapias. Lic. Vanesa Carlotto Miranda - Psicóloga - Terapia Virtual - Terapia Remota - Online",
         content:
           "Información y detalles sobre el tipo de terapias. Sitio web oficial de la Lic. Vanesa Carlotto Miranda, psicóloga especializada en atención remota. Encuentra información sobre su enfoque terapéutico, servicios y formas de contacto.",
         lang: "es",
       },
       {
-        name: "Lic. Vanesa Carlotto Miranda - Psychologist",
+        name: "Lic. Vanesa Carlotto Miranda - Psychologist - Virtual terapy - Remote Terapy - Online",
         content:
           "Information and details about the type of terapies. Official website of Lic. Vanesa Carlotto Miranda, a psychologist specializing in remote therapy. Find information about her therapeutic approach, services, and contact options.",
         lang: "en",
