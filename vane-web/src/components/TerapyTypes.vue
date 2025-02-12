@@ -111,11 +111,30 @@
   import Footer from "./Footer.vue";
   import WhatsappBtn from "./WhatsappBtn.vue";
   import Navbar from "./Navbar.vue";
+  import { useHead } from "@vueuse/head";
 
   const border = ref(borderImg);
   const bg = ref(bgImg);
 
   const isLoaded = ref(false);
+
+  useHead({
+    title: "Information",
+    meta: [
+      {
+        name: "Información sobre las terapias. Lic. Vanesa Carlotto Miranda - Psicóloga",
+        content:
+          "Información y detalles sobre el tipo de terapias. Sitio web oficial de la Lic. Vanesa Carlotto Miranda, psicóloga especializada en atención remota. Encuentra información sobre su enfoque terapéutico, servicios y formas de contacto.",
+        lang: "es",
+      },
+      {
+        name: "Lic. Vanesa Carlotto Miranda - Psychologist",
+        content:
+          "Information and details about the type of terapies. Official website of Lic. Vanesa Carlotto Miranda, a psychologist specializing in remote therapy. Find information about her therapeutic approach, services, and contact options.",
+        lang: "en",
+      },
+    ],
+  });
 
   onMounted(() => {
     isLoaded.value = true;

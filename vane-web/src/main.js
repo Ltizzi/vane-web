@@ -37,7 +37,10 @@ library.add(
   faLinkedin
 );
 
+import { createHead } from "@vueuse/head";
+
 const app = createApp(App);
+const head = createHead();
 
 export const API_URL = "https://vane-web.onrender.com"; //"http://localhost:8000";
 
@@ -53,6 +56,7 @@ export const i18n = createI18n({
 app.component("font-awesome-icon", FontAwesomeIcon);
 app.use(router);
 app.use(i18n);
+app.use(head);
 app.mount("#app");
 
 function settingLang() {

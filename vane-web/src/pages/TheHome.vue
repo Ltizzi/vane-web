@@ -24,10 +24,29 @@
   import Navbar from "../components/Navbar.vue";
   import { onBeforeMount, reactive } from "vue";
   import { API_URL } from "../main";
+  import { useHead } from "@vueuse/head";
 
   const state = reactive({
     landing: false,
     nav: false,
+  });
+
+  useHead({
+    title: "Home",
+    meta: [
+      {
+        name: "Lic. Vanesa Carlotto Miranda - Psicóloga",
+        content:
+          "Sitio web oficial de la Lic. Vanesa Carlotto Miranda, psicóloga especializada en atención remota. Encuentra información sobre su enfoque terapéutico, servicios y formas de contacto.",
+        lang: "es",
+      },
+      {
+        name: "Lic. Vanesa Carlotto Miranda - Psychologist",
+        content:
+          "Official website of Lic. Vanesa Carlotto Miranda, a psychologist specializing in remote therapy. Find information about her therapeutic approach, services, and contact options.",
+        lang: "en",
+      },
+    ],
   });
 
   function scroll() {
