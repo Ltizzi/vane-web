@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Physician",
+  "name": "Lic. Vanesa Carlotto Miranda - Psicóloga",
+  "image": "https://licvanesacarlottomiranda.com.ar/landing.png",
+  "url": "https://licvanesacarlottomiranda.com.ar",
+  "description": "Consulta psicológica online con Vanesa Carlotto Miranda. Atención personalizada desde la comodidad de tu hogar. Terapia virtual y remota.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "AR"
+  },
+  "priceRange": "$$",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "09:00",
+      "closes": "18:00"
+    }
+  ]
+}
